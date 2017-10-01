@@ -1,0 +1,96 @@
+/* GENERAL */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.div-centered {
+    margin: 0 auto;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+h2 {
+    font-weight: 300;    
+}
+
+/* NAV */
+.navbar-nav {
+    width: 25%;
+    text-align: center;
+}
+
+.nav-item {
+    flex-grow: 1;
+}
+
+.global-logo {
+    background-repeat: no-repeat;
+    background-image: url('../img/logo.svg'); 
+    height: 40px;
+    width: 40px;
+}
+
+
+/* MAIN */
+
+/* MAIN/SECTION */
+.section {
+    margin: 5% 0;
+    padding: 5% 0;
+}
+
+/* MAIN/SECTION/HERO */
+.section-hero {
+    padding-top: 120px;
+}
+
+.section-hero p {
+    font-size: 2rem;
+}
+
+/* MAIN/SECTION/PROJECT */
+.section-project {
+    margin: 5% 0;
+    padding: 5% 0;
+}
+
+/* MAIN/SECTION//CONTENT */
+.section-content {
+    text-align: center;
+}
+
+.section-content p {
+    font-weight: 300;
+}
+
+.image-menu-case {
+    padding-top: 56.25%;  /* 450px/800px = 0.5625 */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/1.jpg);
+}
+
+/* FOOTER (CONTACT) */
+
+/*-----------------------------------------*/
+/* Tablet : 991px */
+/*-----------------------------------------*/
+@media only screen and (max-width: 991px) {
+    .navbar-nav {
+        width: 100%;
+    }   
+}
+

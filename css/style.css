@@ -8,6 +8,24 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+a:active, a:focus, a:hover, a:visited {
+    text-decoration: none;
+}
+
+a, a:active, a:focus {
+    color: #3FC380;  
+}
+
+a:hover {
+    color: #6AE368;
+}
+
+::selection {
+    background: #B7EF9C;
+    color: #232828;
+    text-shadow: none;
+}
+
 .div-centered {
     margin: 0 auto;
 }
@@ -17,13 +35,20 @@ body {
     padding-right: 0;
 }
 
-h1 {
-    font-size: 3rem;
-    font-weight: 300;
+h1, h2, h3 {
+    font-weight: 300;    
 }
 
-h2 {
-    font-weight: 300;    
+h1 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+.image-content img {
+    width: 100%;
 }
 
 /* NAV */
@@ -49,7 +74,7 @@ h2 {
 /* MAIN/SECTION */
 .section {
     margin: 5% 0;
-    padding: 5% 0;
+    padding: 2% 0;
 }
 
 /* MAIN/SECTION/HERO */
@@ -76,21 +101,86 @@ h2 {
     font-weight: 300;
 }
 
+.text-intro {
+    padding-bottom: 2%;
+}
+
+.image-content {
+    box-shadow: 0 2px 8px 2px rgba(57,73,76,0.3);
+}
+
 .image-menu-case {
-    padding-top: 56.25%;  /* 450px/800px = 0.5625 */
-    background-size: cover;
+    /*padding-top: 56.25%;   450px/800px = 0.5625 */
+    /*background-size: cover;*/
+    background-size: 100% auto;
     background-repeat: no-repeat;
-    background-image: url(../img/1.jpg);
+}
+
+.text-description {
+    text-align: left;
+    padding-top: 2%;
+}
+
+.text-description-detail {
+    display: flex;
+}
+
+.text-description h3 {
+    font-weight: 400;
+}
+
+.img-container {
+    padding-bottom: 5%;
+}
+
+.img-profile {
+    margin-top: 17%;
 }
 
 /* FOOTER (CONTACT) */
-
-/*-----------------------------------------*/
-/* Tablet : 991px */
-/*-----------------------------------------*/
-@media only screen and (max-width: 991px) {
-    .navbar-nav {
-        width: 100%;
-    }   
+.section-contact {
+    margin-bottom: 0;
 }
 
+.section-contact a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #6C7A89;
+    transition: all 0.2s ease;
+}
+
+.section-contact a:hover {
+    color: #3D3F49;
+}
+
+.section-contact i {
+    margin: 10%;
+    padding-bottom: 2%;
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) { 
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {  
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) { 
+    .navbar-nav {
+        width: 100%;
+    } 
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) { 
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}

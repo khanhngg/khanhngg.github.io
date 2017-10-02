@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1360px" height="810px" viewBox="0 0 1360 810" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #F0F0F0;">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>project-banner-restaurantmenu</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M258,172 L1101.13152,172 L1101.13152,172 C1114.93863,172 1126.13152,183.192881 1126.13152,197 L1126.13152,810 L233,810 L233,197 L233,197 C233,183.192881 244.192881,172 258,172 Z" id="path-1"></path>
+        <filter x="-1.5%" y="-2.1%" width="103.7%" height="105.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="3" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.375055354   0 0 0 0 0.380048895   0 0 0 0 0.376559862  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="project-banner-restaurantmenu">
+            <text id="menu" font-family="HoeflerText-Black, Hoefler Text" font-size="72" font-weight="bold" letter-spacing="0.0599999838" fill="#4A90E2">
+                <tspan x="581" y="106">menu</tspan>
+            </text>
+            <g id="Rectangle-3">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#F9D3A3" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <rect id="Rectangle-2" fill="#FEFFFC" x="281" y="250.378882" width="798" height="559.621118"></rect>
+            <g id="Group-28" transform="translate(680.000000, 425.621118)">
+                <g id="Group" transform="translate(0.000000, 154.000000)"></g>
+                <text id="pick-from-Medium-or" font-family="Garamond-Bold, Garamond" font-size="11" font-weight="bold" letter-spacing="0.00916666538" fill="#000000">
+                    <tspan x="106" y="40">pick from Medium or Large bowl</tspan>
+                </text>
+                <g id="Group-13-Copy" transform="translate(22.000000, 1.000000)" font-size="20" font-family="HoeflerText-Black, Hoefler Text" letter-spacing="0.0166666657" fill="#4A90E2" font-weight="bold">
+                    <text id="Chicken-Soups">
+                        <tspan x="0" y="18">Chicken Soups</tspan>
+                    </text>
+                </g>
+                <g id="Group-15" transform="translate(193.000000, 0.000000)" font-size="12" font-family="Garamond" letter-spacing="0.00999999978" fill="#000000" font-weight="normal">
+                    <g id="Group-12">
+                        <text id="extra-noodles-(rice">
+                            <tspan x="0" y="10">extra noodles (rice or egg noodles) 1.5</tspan>
+                        </text>
+                        <text id="extra-vegetables-1.5">
+                            <tspan x="0" y="23">extra vegetables 1.5</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Group-13" transform="translate(119.000000, 54.000000)" font-size="18" font-family="HoeflerText-Regular, Hoefler Text" letter-spacing="0.0149999987" fill="#4A90E2" font-weight="normal">
+                    <text id="Wonton-Soups">
+                        <tspan x="0" y="17">Wonton Soups</tspan>
+                    </text>
+                </g>
+                <g id="Group-19" transform="translate(0.000000, 80.000000)" fill="#000000">
+                    <g id="Group">
+                        <text id="Won-Ton-Soup" font-family="ProximaNova-Bold, Proxima Nova" font-size="12" font-weight="bold" letter-spacing="0.00999999978">
+                            <tspan x="0" y="11">Won Ton Soup</tspan>
+                        </text>
+                        <text id="Hoanh-Thanh-Sup" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" letter-spacing="0.00999999978">
+                            <tspan x="99" y="11">Hoanh Thanh Sup</tspan>
+                        </text>
+                        <text id="7.95-|-9.95" font-family="ProximaNova-Regular, Proxima Nova" font-size="10" font-weight="normal" letter-spacing="0.00833333284">
+                            <tspan x="214" y="11">7.95 | 9.95</tspan>
+                        </text>
+                        <text id="homemade-pork-wonton" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" letter-spacing="0.00999999978">
+                            <tspan x="0" y="25">homemade pork wontons in chicken broth soup</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-16" transform="translate(0.000000, 39.666667)">
+                        <text id="Prawn-&amp;-Won-Ton-Soup" font-family="ProximaNova-Bold, Proxima Nova" font-size="12" font-weight="bold" letter-spacing="0.00999999978">
+                            <tspan x="0" y="11">Prawn &amp; Won Ton Soup</tspan>
+                        </text>
+                        <text id="Hoanh-Thanh-Tom" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" letter-spacing="0.00999999978">
+                            <tspan x="143" y="11">Hoanh Thanh Tom</tspan>
+                        </text>
+                        <text id="9.95-|-11.95" font-family="ProximaNova-Regular, Proxima Nova" font-size="10" font-weight="normal" letter-spacing="0.00833333284">
+                            <tspan x="258" y="11">9.95 | 11.95</tspan>
+                        </text>
+                        <text id="prawns-&amp;-homemade-po" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" letter-spacing="0.00999999978">
+                            <tspan x="0" y="25">prawns &amp; homemade pork wontons in chicken broth soup</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-Copy" transform="translate(0.000000, 133.000000)">
+                        <text id="Seafood-Won-Ton-Soup" font-family="ProximaNova-Bold, Proxima Nova" font-size="12" font-weight="bold" letter-spacing="0.00999999978">
+                            <tspan x="0" y="11">Seafood Won Ton Soup</tspan>
+                        </text>
+                        <text id="Hoanh-Thanh-Hai-San" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" letter-spacing="0.00999999978">
+                            <tspan x="143" y="11">Hoanh Thanh Hai San</tspan>
+                        </text>
+                        <text id="9.95-|-11.95" font-family="ProximaNova-Regular, Proxima Nova" font-size="10" font-weight="normal" letter-spacing="0.00833333284">
+                            <tspan x="275" y="11">9.95 | 11.95</tspan>
+                        </text>
+                        <text id="prawns,-fish-cakes," font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" letter-spacing="0.00999999978">
+                            <tspan x="0" y="25">prawns, fish cakes, squids, homemade pork wontons</tspan>
+                            <tspan x="0" y="39">in chicken broth soup</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-17" transform="translate(0.000000, 79.333333)">
+                        <text id="9.95-|-11.95-copy-3" font-family="ProximaNova-Regular, Proxima Nova" font-size="10" font-weight="normal" letter-spacing="0.00833333284">
+                            <tspan x="308" y="11">9.95 | 11.95</tspan>
+                        </text>
+                        <text id="Combination-Won-Ton" font-family="ProximaNova-Bold, Proxima Nova" font-size="12" font-weight="bold" letter-spacing="0.00999999978">
+                            <tspan x="0" y="11">Combination Won Ton Soup</tspan>
+                        </text>
+                        <text id="Hoanh-Thanh-Thap-Cam" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" letter-spacing="0.00999999978">
+                            <tspan x="166" y="11">Hoanh Thanh Thap Cam</tspan>
+                        </text>
+                        <text id="prawns,-chicken,-bbq" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" letter-spacing="0.00999999978">
+                            <tspan x="0" y="25">prawns, chicken, bbq pork, homemade pork wontons </tspan>
+                            <tspan x="0" y="39">in chicken broth soup</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Group-14" transform="translate(0.000000, 276.000000)">
+                    <g id="Group-8-Copy-3" transform="translate(0.000000, 49.000000)" font-size="12" letter-spacing="0.00999999978" fill="#000000">
+                        <g id="Group">
+                            <text id="Combination-Won-Ton" font-family="ProximaNova-Bold, Proxima Nova" font-weight="bold">
+                                <tspan x="0" y="11">Combination Won Ton Noodle Soup</tspan>
+                            </text>
+                            <text id="Hoanh-Thanh-Hu-Tieu" font-family="ProximaNova-Regular, Proxima Nova" font-weight="normal">
+                                <tspan x="205" y="11">Hoanh Thanh Hu Tieu Thap Cam</tspan>
+                            </text>
+                            <text id="prawns,-chicken,-bbq" font-family="ProximaNova-Regular, Proxima Nova" font-weight="normal">
+                                <tspan x="0" y="25">prawns, chicken, bbq pork, homemade pork wontons </tspan>
+                                <tspan x="0" y="39">in chicken broth noodle soup</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="Group-18" transform="translate(63.000000, 0.000000)" font-weight="normal">
+                        <g id="Group-13" transform="translate(0.000000, 22.000000)" font-size="12" font-family="HoeflerText-Regular, Hoefler Text" letter-spacing="0.00999999885" fill="#000000">
+                            <text id="(served-with-bean-sp">
+                                <tspan x="0" y="11">(served with bean sprouts, basil, jalapeno, lime)</tspan>
+                            </text>
+                        </g>
+                        <g id="Group-23" transform="translate(4.000000, 0.000000)">
+                            <text id="9.95-|-11.95" font-family="ProximaNova-Regular, Proxima Nova" font-size="10" letter-spacing="0.00833333284" fill="#000000">
+                                <tspan x="191" y="15">9.95 | 11.95</tspan>
+                            </text>
+                            <text id="Wonton-Noodle-Soups" font-family="HoeflerText-Regular, Hoefler Text" font-size="18" letter-spacing="0.0149999987" fill="#4A90E2">
+                                <tspan x="0" y="17">Wonton Noodle Soups</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-10" transform="translate(297.000000, 425.621118)">
+                <g id="Group-8" transform="translate(0.000000, 49.000000)" fill="#000000">
+                    <g id="Group-5" transform="translate(0.000000, 190.666667)">
+                        <text id="Deep-Fried-Quails-(2" font-family="ProximaNova-Bold, Proxima Nova" font-size="12" font-weight="bold" letter-spacing="0.00999999978">
+                            <tspan x="0" y="11.5">Deep Fried Quails (2)</tspan>
+                        </text>
+                        <text id="Chim-Cut-Chien-Gion" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" letter-spacing="0.00999999978">
+                            <tspan x="128" y="12">Chim Cut Chien Gion</tspan>
+                        </text>
+                        <text id="9.95" font-family="ProximaNova-Regular, Proxima Nova" font-size="10" font-weight="normal" letter-spacing="0.00833333284">
+                            <tspan x="261" y="12">9.95</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-6" transform="translate(0.000000, 218.333333)">
+                        <text id="Deep-Fried-Chicken-W" font-family="ProximaNova-Bold, Proxima Nova" font-size="12" font-weight="bold" letter-spacing="0.00999999978">
+                            <tspan x="0" y="11">Deep Fried Chicken Wings (10)</tspan>
+                        </text>
+                        <text id="Canh-Ga-Chien-Gion" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" letter-spacing="0.00999999978">
+                            <tspan x="182" y="11">Canh Ga Chien Gion</tspan>
+                        </text>
+                        <text id="9.95" font-family="ProximaNova-Regular, Proxima Nova" font-size="10" font-weight="normal" letter-spacing="0.00833333284">
+                            <tspan x="306" y="11">9.95</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-7" transform="translate(0.000000, 245.000000)">
+                        <text id="Deep-Fried-Prawns-Ro" font-family="ProximaNova-Bold, Proxima Nova" font-size="12" font-weight="bold" letter-spacing="0.00999999978">
+                            <tspan x="0" y="11">Deep Fried Prawns Rolls (10)</tspan>
+                        </text>
+                        <text id="Tom-Cuon-Chieu" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" letter-spacing="0.00999999978">
+                            <tspan x="177" y="11">Tom Cuon Chieu</tspan>
+                        </text>
+                        <text id="11.95" font-family="ProximaNova-Regular, Proxima Nova" font-size="10" font-weight="normal" letter-spacing="0.00833333284">
+                            <tspan x="285" y="11">11.95</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-7-Copy" transform="translate(0.000000, 271.666667)">
+                        <text id="Salt-&amp;-Pepper-Chicke" font-family="ProximaNova-Bold, Proxima Nova" font-size="12" font-weight="bold" letter-spacing="0.00999999978">
+                            <tspan x="0" y="11">Salt &amp; Pepper Chicken Wings</tspan>
+                        </text>
+                        <text id="Canh-Ga-Rang-Muoi" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" letter-spacing="0.00999999978">
+                            <tspan x="177" y="11">Canh Ga Rang Muoi</tspan>
+                        </text>
+                        <text id="11.95" font-family="ProximaNova-Regular, Proxima Nova" font-size="10" font-weight="normal" letter-spacing="0.00833333284">
+                            <tspan x="311" y="11">11.95</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-7-Copy-2" transform="translate(0.000000, 298.333333)">
+                        <text id="Salt-&amp;-Pepper-Pork-C" font-family="ProximaNova-Bold, Proxima Nova" font-size="12" font-weight="bold" letter-spacing="0.00999999978">
+                            <tspan x="0" y="11">Salt &amp; Pepper Pork Chops</tspan>
+                        </text>
+                        <text id="Suon-Rang-Muoi" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" letter-spacing="0.00999999978">
+                            <tspan x="168" y="11">Suon Rang Muoi</tspan>
+                        </text>
+                        <text id="11.95" font-family="ProximaNova-Regular, Proxima Nova" font-size="10" font-weight="normal" letter-spacing="0.00833333284">
+                            <tspan x="283" y="11">11.95</tspan>
+                        </text>
+                    </g>
+                    <g id="Group">
+                        <text id="Shrimp-&amp;-Pork-Fresh" font-family="ProximaNova-Bold, Proxima Nova" font-size="12" font-weight="bold" letter-spacing="0.00999999978">
+                            <tspan x="0" y="11">Shrimp &amp; Pork Fresh Spring Rolls (2)</tspan>
+                        </text>
+                        <text id="Goi-Cuon" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" letter-spacing="0.00999999978">
+                            <tspan x="219" y="11">Goi Cuon</tspan>
+                        </text>
+                        <text id="7.5" font-family="ProximaNova-Regular, Proxima Nova" font-size="10" font-weight="normal" letter-spacing="0.00833333284">
+                            <tspan x="280" y="11">7.5</tspan>
+                        </text>
+                        <text id="steamed-shrimp-&amp;-por" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" letter-spacing="0.00999999978">
+                            <tspan x="0" y="25">steamed shrimp &amp; pork wrapped in lettuce, carrots, rice paper</tspan>
+                            <tspan x="0" y="39">served with house fish sauce</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-2" transform="translate(0.000000, 54.666667)">
+                        <text id="Imperial-Deep-Fried" font-family="ProximaNova-Bold, Proxima Nova" font-size="12" font-weight="bold" letter-spacing="0.00999999978">
+                            <tspan x="0" y="11">Imperial Deep Fried Egg Rolls (2)</tspan>
+                        </text>
+                        <text id="Cha-Gio" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" letter-spacing="0.00999999978">
+                            <tspan x="200" y="11">Cha Gio</tspan>
+                        </text>
+                        <text id="7.5-copy" font-family="ProximaNova-Regular, Proxima Nova" font-size="10" font-weight="normal" letter-spacing="0.00833333284">
+                            <tspan x="258" y="11">7.5</tspan>
+                        </text>
+                        <text id="homemade-crispy-deep" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" letter-spacing="0.00999999978">
+                            <tspan x="0" y="25">homemade crispy deep fried ground pork, daikon, carrots, rice paper</tspan>
+                            <tspan x="0" y="39">served with vermicelli noodels, lettuce, house peanut sauce</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-3" transform="translate(0.000000, 109.333333)">
+                        <text id="Fried-Wontons-(10)" font-family="ProximaNova-Bold, Proxima Nova" font-size="12" font-weight="bold" letter-spacing="0.00999999978">
+                            <tspan x="0" y="11">Fried Wontons (10)</tspan>
+                        </text>
+                        <text id="Hoanh-Thanh-Chien" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" letter-spacing="0.00999999978">
+                            <tspan x="120" y="11">Hoanh Thanh Chien</tspan>
+                        </text>
+                        <text id="7.5-copy-2" font-family="ProximaNova-Regular, Proxima Nova" font-size="10" font-weight="normal" letter-spacing="0.00833333284">
+                            <tspan x="243" y="11">7.5</tspan>
+                        </text>
+                        <text id="crispy-ground-pork-d" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" letter-spacing="0.00999999978">
+                            <tspan x="0" y="25">crispy ground pork dumplings, served with sweet &amp; sour sauce</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-4" transform="translate(0.000000, 150.000000)">
+                        <text id="Potstickers-(6)" font-family="ProximaNova-Bold, Proxima Nova" font-size="12" font-weight="bold" letter-spacing="0.00999999978">
+                            <tspan x="0" y="11">Potstickers (6)</tspan>
+                        </text>
+                        <text id="Hoanh-Thanh-Hap" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" letter-spacing="0.00999999978">
+                            <tspan x="104" y="11">Hoanh Thanh Hap</tspan>
+                        </text>
+                        <text id="7.5-copy-3" font-family="ProximaNova-Regular, Proxima Nova" font-size="10" font-weight="normal" letter-spacing="0.00833333284">
+                            <tspan x="214" y="11">7.5</tspan>
+                        </text>
+                        <text id="steamed-ground-pork" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" letter-spacing="0.00999999978">
+                            <tspan x="0" y="25">steamed ground pork &amp; scallions dumplings, served with soy sauce</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Group-9" transform="translate(137.000000, 0.000000)" font-size="20" font-family="HoeflerText-Black, Hoefler Text" letter-spacing="0.0166666657" fill="#4A90E2" font-weight="bold">
+                    <text id="Appetizers">
+                        <tspan x="0" y="18">Appetizers</tspan>
+                    </text>
+                </g>
+            </g>
+            <image id="ttLogo" x="637" y="299" width="87" height="75" xlink:href="data:image/png;base64,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"></image>
+            <text id="thanh-tam" font-family="Times-Roman, Times" font-size="14" font-weight="normal" letter-spacing="0.24499999" fill="#4A90E2">
+                <tspan x="650" y="388">thanh</tspan>
+                <tspan x="682.328516" y="388" font-family="GujaratiMT, Gujarati MT"> </tspan>
+                <tspan x="688.172148" y="388">tam</tspan>
+            </text>
+            <rect id="Rectangle" fill="#5C80A9" x="450" y="230" width="460" height="41.6211178" rx="20.8105589"></rect>
+            <circle id="Oval" fill="#5C80A9" cx="690" cy="219" r="32"></circle>
+            <circle id="Oval" fill="#F9D3A3" cx="690" cy="219" r="17.3944531"></circle>
+        </g>
+    </g>
+</svg>

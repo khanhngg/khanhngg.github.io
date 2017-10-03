@@ -36,11 +36,15 @@ a:hover {
 }
 
 h1, h2, h3 {
-    font-weight: 300;    
+    font-weight: 300;
 }
 
 h1 {
     font-size: 3rem;
+}
+
+h2 {
+    margin-top: .5rem;
 }
 
 h3 {
@@ -51,7 +55,14 @@ h3 {
     width: 100%;
 }
 
+
 /* NAV */
+.nav-transparent {
+    border: 0;
+    border-radius: 0;
+    background: rgba(0,0,0,0);
+}
+
 .navbar-nav {
     width: 25%;
     text-align: center;
@@ -79,11 +90,18 @@ h3 {
 
 /* MAIN/SECTION/HERO */
 .section-hero {
-    padding-top: 120px;
+    padding-top: 10%;
+    /*padding-top: 120px;*/
 }
 
 .section-hero p {
     font-size: 2rem;
+}
+
+.section-hero-project {
+    margin-top: 0;
+    padding-top: 10%;
+    /*padding-bottom: 15%;*/
 }
 
 /* MAIN/SECTION/PROJECT */
@@ -93,13 +111,30 @@ h3 {
 }
 
 /* MAIN/SECTION//CONTENT */
-.section-content {
+
+img#img-group {
+  width: 100%;
+}
+
+.section {
     text-align: center;
 }
 
-.section-content p {
+.section p {
     font-weight: 300;
-    letter-spacing: 0.02rem;
+    letter-spacing: 0.02rem;    
+}
+
+.section-content-detail {
+    text-align: left;
+}
+
+.section-content-detail li {
+    font-weight: 300;
+}
+
+.section-content-detail h2 {
+    margin-bottom: 5%;
 }
 
 .text-intro {
@@ -129,7 +164,8 @@ h3 {
 .text-description-detail div {
     padding-left: 0;
 }
-.text-description h3 {
+
+.text-description h3, .section-hero-project h3 {
     font-weight: 400;
 }
 

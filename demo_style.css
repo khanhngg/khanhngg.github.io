@@ -1,0 +1,59 @@
+/* GENERAL */
+html {
+  height: 100%; /*html takes up 100% of its container (document window) --->>> hero img spans the window*/
+}
+
+body {
+  font-family: Quicksand, Helvetica, sans-serif;
+  letter-spacing: .15rem;
+  /*padding-top: 20px;*/
+}
+
+/* SEARCH BAR */
+.search-container {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 700px;
+}
+
+form {
+    width: inherit;
+}
+
+input {
+    width: inherit;    
+}
+
+/* RIGHT SIDE NAV */
+.ml-auto {
+    margin-left: 0!important;
+}
+
+
+/* CONTENT */
+.content-container, .playlist {
+    display: flex;
+    margin: 0 auto;
+}
+
+.content-container {
+    margin-top: 24px;
+}
+
+/* VIDEO */
+ .video-main {
+    flex: none;
+    max-height: 480px;
+ }
+/* PLAYLIST */
+.playlist {
+    margin-left: 0;
+    padding-left: 24px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.playlist-thumbnail {
+    margin-bottom: 20px;
+}

@@ -198,6 +198,21 @@ img#img-group {
     padding-bottom: 2%;
 }
 
+/* YOUTUBE VIDEOS*/
+.item {
+    padding-bottom: 5%;
+}
+
+.thumbnail h3 {
+    color: #232828;
+    font-weight: 400;
+}
+
+img.channel-thumbnail {
+    width: 100%;
+    height: auto;
+}
+
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) { 
     h1 {

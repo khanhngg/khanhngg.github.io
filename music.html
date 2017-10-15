@@ -1,0 +1,30 @@
+---
+layout: main
+---
+
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 col-sm-12 div-centered">
+                <h1>Music Cataloging</h1>
+            </div>
+            <div class="col-md-8 div-centered">
+                <form action="#">
+                    <p><input type="query" id="search" placeholder="Search for songs or artists ..." autocomplete="off" class="form-control" /></p>
+                    <p><input type="submit" value="Search" class="form-control btn btn-primary w100"></p>
+                </form>
+            </div>
+            <div id="results" class="col-lg-12 row div-centered">                                   
+            </div>
+        </div>  
+    </div>  
+</section>
+
+<!-- SEARCH YOUTUBE API -->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous">
+</script>
+<script type="text/javascript" src="js/search.js"></script>
+<script src="https://apis.google.com/js/client.js?onload=init"></script>

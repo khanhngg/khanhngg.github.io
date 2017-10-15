@@ -36,7 +36,6 @@ $(function() {
     
 });
 
-
 // LINK TO VIDEO PAGE RESULT
 // get the videoid and pass this to video.html to display the correct iframe link
 // have to access .thumbnail through #results because they are dynamically created children

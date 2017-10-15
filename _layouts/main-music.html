@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<div id= "main" class="main container-fluid">    
+    {{ content }}    
+</div>
+
+<!-- FOOTER -->
+{% include footer.html %}
+
+<!-- SCRIPTS -->
+{% include js-plugins.html %}
+
+<!-- SEARCH YOUTUBE API -->
+<script type="text/javascript" src="js/search.js"></script>
+<script type="text/javascript" src="js/show-video.js"></script>
+<script src="https://apis.google.com/js/client.js?onload=init"></script>
+
+<!-- Google Analytics -->
+{% include google-analytics.html %}

@@ -1,0 +1,24 @@
+{
+    "items": [
+        {
+            "department": "Photography",
+            "count": 19289
+        },
+        {
+            "department": "Painting and Sculpture",
+            "count": 8861
+        },
+        {
+            "department": "Architecture and Design",
+            "count": 6510
+        },
+        {
+            "department": "Media Arts",
+            "count": 227
+        },
+        {
+            "department": "Cross Departmental Accessions",
+            "count": 117
+        }
+    ]
+}

@@ -1,0 +1,162 @@
+[
+    {
+        "name": "id",
+        "completionCount": 35011,
+        "mostCommonValues": [],
+        "numDistinctValues": 35011,
+        "completionPercentage": "99.98"
+    },
+    {
+        "name": "slug",
+        "completionCount": 35019,
+        "mostCommonValues": [],
+        "numDistinctValues": 35019,
+        "completionPercentage": "100.00"
+    },
+    {
+        "name": "title_display",
+        "completionCount": 35010,
+        "mostCommonValues": {
+            "Cotton Under My Feet": 96,
+            "Lattice Archipelogics": 105,
+            "Then & Now": 138,
+            "Untitled": 1751
+        },
+        "numDistinctValues": 27292,
+        "completionPercentage": "99.97"
+    },
+    {
+        "name": "accession_number",
+        "completionCount": 35019,
+        "mostCommonValues": [],
+        "numDistinctValues": 35019,
+        "completionPercentage": "100.00"
+    },
+    {
+        "name": "medium_display",
+        "completionCount": 34562,
+        "mostCommonValues": {
+            "lithograph": 1103,
+            "offset lithograph": 1557,
+            "chromogenic print": 1978,
+            "gelatin silver print": 11782
+        },
+        "numDistinctValues": 4111,
+        "completionPercentage": "98.69"
+    },
+    {
+        "name": "medium_medium",
+        "completionCount": 33848,
+        "mostCommonValues": {
+            "lithograph": 1153,
+            "chromogenic print": 1775,
+            "offset lithograph": 1899,
+            "gelatin silver print": 11774
+        },
+        "numDistinctValues": 3470,
+        "completionPercentage": "96.66"
+    },
+    {
+        "name": "date_display",
+        "completionCount": 35019,
+        "mostCommonValues": {
+            "0": 543,
+            "1": 587,
+            "2": 679,
+            "n.d.": 3622
+        },
+        "numDistinctValues": 2590,
+        "completionPercentage": "100.00"
+    },
+    {
+        "name": "object_type",
+        "completionCount": 34364,
+        "mostCommonValues": {
+            "drawing": 2058,
+            "printed material": 2665,
+            "print": 3503,
+            "photograph": 18111
+        },
+        "numDistinctValues": 61,
+        "completionPercentage": "98.13"
+    },
+    {
+        "name": "origin_country",
+        "completionCount": 10097,
+        "mostCommonValues": {
+            "France": 302,
+            "Mexico": 327,
+            "Japan": 853,
+            "United States": 6687
+        },
+        "numDistinctValues": 118,
+        "completionPercentage": "28.83"
+    },
+    {
+        "name": "dimensions_display",
+        "completionCount": 28881,
+        "mostCommonValues": {
+            "16 in. x 20 in. (40.64 cm x 50.8 cm)": 292,
+            "20 in. x 24 in. (50.8 cm x 60.96 cm)": 297,
+            "8 in. x 10 in. (20.32 cm x 25.4 cm)": 490,
+            "11 in. x 14 in. (27.94 cm x 35.56 cm)": 559
+        },
+        "numDistinctValues": 13916,
+        "completionPercentage": "82.47"
+    },
+    {
+        "name": "department",
+        "completionCount": 35004,
+        "mostCommonValues": {
+            "Media Arts": 227,
+            "Architecture and Design": 6509,
+            "Painting and Sculpture": 8861,
+            "Photography": 19289
+        },
+        "numDistinctValues": 16,
+        "completionPercentage": "99.96"
+    },
+    {
+        "name": "accession_date_year",
+        "completionCount": 32588,
+        "mostCommonValues": [],
+        "numDistinctValues": 32588,
+        "completionPercentage": "93.06"
+    },
+    {
+        "name": "credit_line",
+        "completionCount": 34770,
+        "mostCommonValues": {
+            "The United States General Services Administration, formerly Federal Works Agency, Works Projects Administration, allocation to the San Francisco Museum of Modern Art": 882,
+            "Gift of Lawrence D. Hite, Boright Realty, Charles Levin, Walter Linker, Charles Zucker, and Simon Levin": 973,
+            "Gift of the artist": 2816,
+            "Accessions Committee Fund purchase": 3494
+        },
+        "numDistinctValues": 3585,
+        "completionPercentage": "99.29"
+    },
+    {
+        "name": "primary_artist",
+        "completionCount": 28617,
+        "mostCommonValues": {
+            "Barry McGee": 521,
+            "Sibyl Anikeef": 545,
+            "Unknown": 673,
+            "Roger M. Parry": 1084
+        },
+        "numDistinctValues": 2843,
+        "completionPercentage": "81.72"
+    },
+    {
+        "name": "all_contributors",
+        "completionCount": 28694,
+        "mostCommonValues": {
+            "Barry McGee,Barry McGee": 513,
+            "Sibyl Anikeef": 544,
+            "Unknown": 628,
+            "Roger M. Parry,Roger M. Parry": 1081
+        },
+        "numDistinctValues": 3734,
+        "completionPercentage": "81.94"
+    }
+]

@@ -1,0 +1,1556 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- comment in for Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <!-- start Mixpanel -->
+        <!-- comment in for mixpanel
+        <script type="text/javascript">(function(e,a){if(!a.__SV){var b=window;try{var c,l,i,j=b.location,g=j.hash;c=function(a,b){return(l=a.match(RegExp(b+"=([^&]*)")))?l[1]:null};g&&c(g,"state")&&(i=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===i.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(i.desiredHash||"",e.title,j.pathname+j.search)))}catch(m){}var k,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,0)))}}var d=a;"undefined"!==typeof f?d=a[f]=[]:f="mixpanel";d.people=d.people||[];d.toString=function(b){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);b||(a+=" (stub)");return a};d.people.toString=function(){return d.toString(1)+".people (stub)"};k="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");for(h=0;h<k.length;h++)e(d,k[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";c=e.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)}})(document,window.mixpanel||[]);
+
+        mixpanel.init("YOUR TOKEN");</script>
+    -->
+    <!-- end Mixpanel -->
+
+    <style>
+    /*styling. TODO: include this in separate file*/
+        .container {
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+            margin-bottom: 30px;
+        }
+
+        .content-container {
+            position: relative;
+            background: #f8f8f8;
+            padding-top: 24px;
+        }
+
+        .container-after-hero {
+            margin-top: 16px
+        }
+
+        .row-centered {
+            text-align: center
+        }
+
+        .col-centered {
+            display: inline-block;
+            float: none;
+            text-align: left;
+            vertical-align: top;
+            margin-right: -4px
+        }
+
+        @media (max-width: 767px) {
+            .col-centered {
+                display:block;
+                margin-right: 0
+            }
+        }
+
+        h2,.h2 {
+            font-family: 'SFMOMADisplayRegular';
+            font-weight: normal;
+            font-size: 32px;
+            line-height: 40px;
+            margin-top: 0;
+            margin-bottom: 24px;
+            color: #39494c
+        }
+
+
+        h3,.h3 {
+            font-family: 'SFMOMADisplayRegular';
+            font-weight: normal;
+            font-size: 21px;
+            line-height: 28px;
+            margin-top: 24px;
+            margin-bottom: 24px;
+            color: #39494c
+        }
+
+        .text {
+            position: relative;
+            min-height: 1px
+        }
+
+        .text {
+            font-family: 'SFMOMAText';
+            font-variant-numeric: lining-nums;
+            -ms-font-feature-settings: "lnum" 1;
+            -o-font-feature-settings: "lnum" 1;
+            -webkit-font-feature-settings: "lnum" 1;
+            font-feature-settings: "lnum" 1;
+            font-size: 16px;
+            line-height: 24px;
+            color: #39494c;
+            margin-bottom: 24px;
+        }
+
+        .text h1,.text .h1 {
+            margin-top: 24px;
+        }
+
+        .text h2,.text .h2 {
+            margin-top: 24px;
+        }
+
+        p {
+            line-height: 1.8;
+        }
+
+        a {
+            color: #ff483b;
+            text-decoration: none
+        }
+
+        a:hover,a:focus {
+            text-decoration: none;
+            color: #f90900
+        }
+
+        ::selection {
+            background: #ffbfbb;
+            color: #232828;
+            text-shadow: none
+        }
+
+        li.key {
+            border-top-width: 15px;
+            border-top-style: solid;
+            font-size: .75em;
+            width: 10%;
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .footer {
+            position: relative;
+            background: #ff483b;
+            padding-top: 12px;
+            padding-bottom: 12px
+        }
+
+        .footer-lower-links {
+            float: left;
+            margin: 0 -12px
+        }
+
+        .footer-lower-links li {
+            font-family: 'SFMOMADisplayRegular';
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 24px;
+            color: #39494c;
+            line-height: 1;
+            color: white;
+            border-right: 1px solid rgba(255,255,255,0.5);
+            padding: 0 12px
+        }
+
+        .footer-lower-links li:last-child {
+            border-right: none
+        }
+
+        .footer-lower-links li a {
+            color: #fff
+        }
+
+
+        /*d3.js stuff*/
+        .chart {
+            margin-bottom: 24px: 
+        }
+
+        .toolTip {
+            position: absolute;
+            display: none;
+            min-width: 80px;
+            height: auto;
+            background: none repeat scroll 0 0 #ffffff;
+            border: 1px solid #6F257F;
+            padding: 14px;
+            text-align: center;
+        }
+
+        .pie-chart {
+            height: 500px;
+        }
+
+        .area {
+            fill: rgba(255, 72, 59, 0.4);
+        }
+
+        .axis-label {
+            text-anchor: middle;
+            font-family: 'SFMOMADisplayBold';
+            font-size: 0.9rem;
+        }
+
+        .line {
+            fill: none;
+            stroke-width: 2px;            
+            /*stroke: steelblue;*/
+        }
+        
+        .birthDate-line {
+            stroke: #78BCDC;
+        }
+
+        .deathDate-line {
+            stroke: #E6A2C5;
+        }
+
+        .groupDate-line {
+            stroke: #76A08A;
+        }
+
+        .accession-year-line {
+            stroke: rgb(255, 72, 59);
+            stroke-width: 1px;            
+        }
+
+        #nationality {
+            text-align: center;
+        }
+
+        .countries {
+            fill: rgb(190, 202, 202);
+            stroke: #E8D2B9;
+        }
+
+        #nationality-legend {
+            padding: 1.5em 0 0 1.5em;
+        }
+
+        /*for testing*/
+        .selected {
+            fill: #D1362F;
+        }
+        .nav {
+            padding-left: 3%;
+            padding-top: 1%;
+        }
+  </style>
+</head>
+<body>
+    <nav class="nav">
+        <a class="nav-link" href="../index.html">Back</a>
+    </nav>
+
+    <!-- Add your site or application content here -->
+    <main role="main" id="main-content" tabindex="-1">
+        <div class="content-container">
+            <div class="container container-after-hero">
+                <!-- GENERAL DASHBOARD -->
+                <div class="row-centered">
+                    <div class="col-centered col-sm-10 text-center">
+                        <h1 class="page-title text-center h2">SFMOMA API Metadata Dashboard</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- ARTIST COMPLETION -->
+                    <div class="container">
+                        <div class="row row-centered">
+                            <div class="col-centered col-sm-8">
+                                <div class="clearfix"></div>
+                                <div class="text">
+                                    <p style="text-align: center;">
+                                        <em>updated on</em> August 9th, 2017
+                                    </p>
+                                    <p>This dashboard provides a high-level view of the overall make-up and completeness of SFMOMA's artist, artwork and exhibition metadata. The metadata is fully described and made available to all on SFMOMA's <a href="https://github.com/sfmoma/collection" target="_blank">Collection Metadata Download</a> site on GitHub. This code for this dashboard is also available to all on it's own <a href="https://github.com/sfmoma/collection-dashboard" target="_blank">GitHub repo</a>.
+                                        <br>
+                                    </p>
+                                    <h3>Artist information completeness (<span class="artists"></span> records)</h3>
+                                    <p>This chart shows how complete the information SFMOMA has in its Collection Management System for all artists records. For example, you will be able to see for what percentage of artists there is, birth year or birth place information.
+                                        <br>
+                                    </p>
+                                </div>
+                                <div class="chart artist-chart"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ARTWORK COMPLETION -->
+                    <div class="container">
+                        <div class="row row-centered">
+                            <div class="col-centered col-sm-8">
+                                <div class="clearfix"></div>
+                                <div class="text">
+                                    <h3>Artwork information completeness (<span class="artworks"></span> records)</h3>
+                                    <p>This chart shows how complete the information SFMOMA has in its Collection Management System for artworks. For example, you will be able to see for what percentage of artworks there is, material or dimension information.
+                                     
+                                        </a>.
+                                        <br>
+                                    </p>
+                                </div>
+                                <div class="chart artwork-chart"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- EXHIBITION COMPLETION -->
+                    <div class="container">
+                        <div class="row row-centered">
+                            <div class="col-centered col-sm-8">
+                                <div class="clearfix"></div>
+                                <div class="text">
+                                    <h3>Exhibition information completeness (<span class="exhibitions"></span> records)</h3>
+                                    <p>This chart shows how complete the information SFMOMA has in its Collection Management System for exhibitions.                                     
+                                        <br>
+                                    </p>
+                                </div>
+                                <div class="chart exhibition-chart"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DASHBOARD BREAKDOWN -->
+                <div class="row-centered">
+                    <div class="col-centered col-sm-10 text-center">
+                        <h1 class="page-title text-center h2">SFMOMA Collection Metadata Breakdown</h1>
+                    </div>
+                </div>
+
+                <div class="row">    
+                    <!-- GENDER PIE CHART -->
+                    <div class="container">
+                        <div class="row row-centered">
+                            <div class="col-centered col-sm-8">
+                                <div class="clearfix"></div>
+                                <div class="text">
+                                    <p>Below are a series of simple Artist, Artwork and Exhibition visualizations of specific elements of the SFMOMA collection data. These data sets were selected based on the most frequent requests for information the museum receives.<br/><br/>
+                                    </p>
+                                    <h3>Artist Year of Birth and Year of Death (if known):</h3>
+                                </div>
+                                <div id="years"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ARTISTS' BIRTH/DEATH LINE CHART -->
+                    <div class="container">
+                        <div class="row row-centered">
+                            <div class="col-centered col-sm-8">
+                                <div class="clearfix"></div>
+                                <div class="text">
+                                    <h3>Artist gender:</h3>
+                                </div>
+                                <div class="pie-chart" id="gender" ></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ARTISTS' NATIONALITY MAP -->
+                    <div class="container">
+                        <div class="row row-centered">
+                            <div class="col-centered col-sm-8">
+                                <div class="clearfix"></div>
+                                <div class="text">
+                                    <h3>Artist Nationality (if known):</h3>
+                                    <p>The majority of artists in SFMOMA's collection were born in the United States, followed by Germany, France and the UK. 
+                                        <br>
+                                    </p>
+                                </div>
+                                <div id="nationality"></div>
+                                <div id="nationality-legend"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ARTWORK ACCESSIONED -->
+                    <div class="container">
+                        <div class="row row-centered">
+                            <div class="col-centered col-sm-8">
+                                <div class="clearfix"></div>
+                                <div class="text">
+                                    <h3>Artworks Accessioned each Year</h3>
+                                </div>
+                                <!-- <div class="centered-image-wrapper centered-image-in-text">
+                                    <figure>
+                                        <img src="img/Artworks-by-accession-year.png" class="img-responsive center-block">
+                                    </figure>
+                                </div> -->
+                                <div id="artwork-years"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ARTWORK CREATED -->
+                    <div class="container">
+                        <div class="row row-centered">
+                            <div class="col-centered col-sm-8">
+                                <div class="clearfix"></div>
+                                <div class="text">
+                                    <h3>Artwork arranged by department</h3>
+                                </div>
+                                <!-- <div class="centered-image-wrapper centered-image-in-text">
+                                    <figure>
+                                        <img src="img/Artworks-by-department.png" class="img-responsive center-block">
+                                    </figure>
+                                </div> -->
+                                <div id="artwork-department"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- NUMBER OF EXHIBITIONS -->
+                    <div class="container">
+                        <div class="row row-centered">
+                            <div class="col-centered col-sm-8">
+                                <div class="clearfix"></div>
+                                <div class="text">
+                                    <h3>Number of Exhibitions per year, since 1935</h3>
+                                </div>
+                                <!-- <div class="centered-image-wrapper centered-image-in-text">
+                                    <figure>
+                                        <img src="img/Exhibitions-at-SFMOMA-since-1935.png" class="img-responsive center-block">
+                                    </figure>
+                                </div> -->
+                                <div id="exhibition-count"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                <!-- END OF ROW -->
+            </div> 
+        </div>        
+    </main>
+    <footer class="footer">
+        <div class="container" style="margin-bottom: 0px">
+            <ul class="list-inline footer-lower-links">
+                <li class="sr-only">
+                    <h3>Footer navigation</h3>
+                </li>
+                <li>
+                    <a href="https://www.sfmoma.org/about/" target="_blank">About SFMOMA</a> 
+                </li>
+                <li>
+                    <a href="https://www.sfmoma.org/artists-artworks/" target="_blank">Explore SFMOMA collection</a> 
+                </li>
+                <li>
+                    <a href="https://github.com/sfmoma/collection" target="_blank">Access the metadata</a>           
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <!-- uncomment for d3 -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="http://d3js.org/topojson.v1.min.js"></script>
+    <script src="http://d3js.org/queue.v1.min.js"></script>
+
+
+    <!-- uncomment for aframe
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>-->
+    <!-- uncomment for Bootstrap JS
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
+
+    <script src="js/main.js"></script>
+
+    <!-- D3 Drawing - Dashboard -->
+    <script type="text/javascript">
+
+        //ARTIST - Mapping attributes' names to more readable names
+        var readableAttributes= {
+            'name': 'Name',
+            'numDistinctValues': 'Number of Distinct Values',
+            'completionPercentage': 'Completion Percentage',
+
+            'id': 'Unique Numeric Identifier',
+            'slug': 'Unique Identifier for URL',
+
+            'name_display': 'Artist\'s Name',
+            'gender': 'Gender',
+            'life_info_birth_date_display': 'Birth Year',
+            'life_info_death_date_display': 'Death Year',
+            'life_info_birth_place' : 'Birth Place',
+            'life_info_death_place': 'Death Place',
+            'life_info_display' : 'Life Info',
+            'background_nationality': 'Nationality',
+            'name_sort' : 'Artist\'s Name by Last Name',
+            'sfmoma_website_url': 'URL',
+            'sfmoma_api_url': 'API URL',
+            'ulan' :'ULAN id',
+            'artwork_accession_numbers': 'Artworks Accession Numbers',
+
+            'title_display': 'Artwork Title',
+            'accession_number': 'Artwork Accession Number',
+            'medium_display': 'Materials',
+            'medium_medium': 'Complete Materials',
+            'date_display': 'Year Produced',
+            'object_type': 'Classification',
+            'origin_country': 'Origin',
+            'dimensions_display': 'Dimensions',
+            'department': 'SFMOMA Accession Department',
+            'accession_date_year': 'Accessioned Year',
+            'credit_line': 'Credit Line',
+            'primary_artist': 'Artist\'s Name',
+            'all_contributors': 'All Contributors\' Names',
+
+            '\ufefftitle': 'Exhibition Title',
+            'start date': 'Exhibition Start Date',
+            'end date': 'Exhibition End Date',
+
+            'birthCount' : 'Births/year',
+            'deathCount' : 'Deaths/year',
+            'groupCount' : 'Groups/year',
+        };
+
+        //INIT DIMENSIONS
+        var margin = {top: 20, right: 20, bottom: 30, left: 50},
+        width = 750 - margin.left - margin.right,
+        height = 400 - margin.top - margin.bottom,
+        pieWidth = 750,
+        pieHeight = 500,
+        pieSVGHeight = 465,
+        barLeftMargin = 250,
+        barTextMargin = 60;
+        barHeight = 29;  
+        
+        function extractAttributeData(data, attr) {
+            var commonDataValues = [];
+            for (var index in data) {
+                if (data[index].name == attr) {
+                    commonDataValues = data[index].mostCommonValues;
+                }
+            }
+            return commonDataValues;
+        }
+
+        function createBarChart(data, divName) {
+            var maxCompletionPercentage = 100;
+
+            //SVG for Completion Bar Chart
+            var svg = d3.select(divName)
+            .append("svg")
+
+            .attr("width", width + margin.left + margin.right)
+            .attr('transform', 'translate(' + [0, margin.top] + ')')
+            .attr("height", height);
+
+            //tooltip for completion bar chart
+            var tooltip = d3.select("body").append("div").attr("class", "toolTip");
+
+            //Map colors to categories
+            var barChart_color = d3.scaleOrdinal()
+            .domain(data)
+            .range(["#1DACE8", "#1C366B", "#F24D29", "#F7B0AA",
+                   "#FDDDA4", "#76A08A", "#B62A3D", "#EDCB64",
+                   "#27223C", "#A35E60", "#541F12", "#CC8B3C",
+                   "#F8DF4F", "#456355", "#FCD16B"]);
+
+            // SCALES FOR BAR CHART
+            var dx = width / maxCompletionPercentage * .7;
+            var dy = 31;
+
+            var x = d3.scaleLinear()
+                .range([0, width*.7])
+                .domain([0, 100]);
+
+            var y = d3.scaleBand()
+                .domain(d3.range(data.length))
+                .range([0, data.length * barHeight]);
+
+            //Height corresponds to how many data items
+            var barHeightGap = 2;
+            height = data.length * (barHeight + barHeightGap)  + 30;
+
+            d3.select(svg.node().parentNode)
+                .style('height', (height) + 'px');
+
+            svg.attr("height", height);
+
+            // BAR CHART
+            var bars = svg.selectAll(".bar")
+            .data(data)
+            .enter().append("g")
+            .append("a")
+            .attr("xlink:href", function(data) { return "#" + data.name; })
+            .append("rect")
+            .attr("class", function(data_item, index) {return "bar";})
+            .attr("fill", function(data, index) { return barChart_color(data.name); })
+            .attr("x", function(data_item, index) {return barLeftMargin;})
+            .attr("y", function(data_item, index) {return (barHeight + barHeightGap)*index;})
+            .attr("height", barHeight)
+            .on("mousemove", function(data){
+                tooltip
+                .style("left", d3.event.pageX - 60 + "px")
+                .style("top", d3.event.pageY - 76 + "px")
+                .style("display", "inline-block")
+                .html(
+                      (readableAttributes[data.name]) + "<br>" 
+                      + data.completionCount
+                      );
+            })
+            .on("mouseout", function(data){ tooltip.style("display", "none");});
+
+            // BAR CHART LABELS
+            var text = svg.selectAll("text")
+            .data(data)
+            .enter()
+            .append("a")
+            .attr("xlink:href", function(data) { return "#" + data.name; })
+            .append("text")
+            .attr("class", function(data_item, index) {return "name";})
+            .attr("x", 0)
+            .attr("y", function(data_item, index) {return (barHeight + barHeightGap)*index + barHeight/2;})
+            .text( function(data_item) {return readableAttributes[data_item.name];})
+            .attr("font-size", "15px")
+            .style("font-weight", "bold");
+
+            // BAR CHART PERCENTAGE LABELS
+            var completion_percentage_text = svg.selectAll("completion-text")
+            .data(data)
+            .enter()
+            .append("text")
+            .attr("class", function(data) {return "completion-text";})
+            .attr("x", function(data, index){
+                return dx*data.completionPercentage + barLeftMargin - barTextMargin;
+            })
+            .attr("y", function(data_item, index) {return (barHeight + barHeightGap)*index + barHeight/2;})
+            .text( function(data_item) {return data_item.completionPercentage  + "%";})
+            .attr("font-size", "15px")
+            .style("fill", "white")
+            .style("font-weight", "bold");
+            
+            //RESPONSIVENESS
+            // Draw for the first time to initialize.
+            resized();
+
+            window.addEventListener("resize", resized);
+
+            function resized() {
+                //new margin
+                var newMargin = {top: 10, right: 80, bottom: 20, left: 50};
+
+                //Get the width of the window
+                var w = d3.select(divName).node().clientWidth;
+                var newLeftMargin = w*.3;
+                var newbarTextMargin = 61;
+                
+                //Change the width of the svg
+                svg.attr("width", w);
+
+                if (w <= 750 && w > 737) {
+                    //Change the x scale
+                    x.range([0, w*.7]);
+
+                    //Update the bars
+                    bars.attr("x", function() {return newLeftMargin;})
+                        .attr("width", function(d) { return x(d.completionPercentage); });
+
+                    //Updates bar labels
+                    text
+                        .attr("x", "0")
+                        .attr("font-size", "15px")
+                        .style("fill", "#232828");
+
+                    completion_percentage_text
+                        .attr("font-size", "15px")
+                        .style("fill", "white")
+                        .attr("x", function(d){
+                        return x(d.completionPercentage) + newLeftMargin - newbarTextMargin;
+                    });
+                } else if (w <= 737 && w > 680) {
+                    //Change the x scale
+                    x.range([0, w*.7]);
+
+                    //Update the bars
+                    bars.attr("x", function() {return newLeftMargin;})
+                        .attr("width", function(d) { return x(d.completionPercentage); });
+
+                    //Updates bar labels
+                    text
+                        .attr("font-size", "13px")
+                        .style("fill", "#232828");
+
+                    completion_percentage_text
+                        .attr("font-size", "13px")
+                        .style("fill", "white")
+                        .attr("x", function(d){
+                        return x(d.completionPercentage) + newLeftMargin - newbarTextMargin;
+                    });
+                } else if (w <= 680 && w > 622) {
+                    //Change the x scale
+                    x.range([0, w*.7]);
+
+                    //Update the bars
+                    bars.attr("x", function() {return newLeftMargin;})
+                        .attr("width", function(d) { return x(d.completionPercentage); });
+
+                    //Updates bar labels
+                    text
+                        .attr("font-size", "12px")
+                        .style("fill", "#232828");
+
+                    completion_percentage_text
+                        .attr("font-size", "12px")
+                        .style("fill", "white")
+                        .attr("x", function(d){
+                        return x(d.completionPercentage) + newLeftMargin - newbarTextMargin*.8;
+                    });
+                } else if (w <= 622) {
+                    //Change the x scale
+                    x.range([0, w*.85]);
+
+                    //Update the bars
+                    bars
+                        .attr("x", "0")
+                        .attr("width", function(d) { return x(d.completionPercentage); });
+
+                    //Updates bar labels
+                    text
+                        .attr("x", "5")
+                        .attr("font-size", "12px")
+                        .style("fill", "white");
+
+                    completion_percentage_text
+                        .attr("font-size", "12px")
+                        .style("fill", "#232828")
+                        .attr("x", function(d){
+                        return x(d.completionPercentage) + 5;
+                    }); 
+                } 
+            }
+
+        }
+
+        function createPieChart(data, divName, attr) {
+            // Draw for the first time to initialize.
+            resized();
+
+            window.addEventListener("resize", resized);
+
+            function resized() {
+                //remove previously rendered svg
+                d3.select(divName + " svg").remove();
+
+                //Set up width, height, radius for pie chart
+                var w = d3.select(divName).node().clientWidth,
+                    h = d3.select(divName).node().clientHeight,
+                    radius = Math.min(w, h) / 3;
+
+                var pieData = extractAttributeData(data, attr);
+
+                var keys = Object.keys(pieData).map(function(key) { return key });
+
+                var totalValues = 0;
+                var values = Object.keys(pieData).map(function(key) { 
+                    totalValues += pieData[key];
+                    return pieData[key]; 
+                });
+
+                var svg = d3.select(divName)
+                .append("svg")
+                .attr("width", w)
+                .attr("height", h) 
+                .attr("style", "padding-top: 8%;");
+
+                var g = svg.append("g")
+                .attr("transform", "translate(" + w / 2 + "," + h / 2.5 + ")");
+
+                var arc = d3.arc()
+                .outerRadius(radius * .75)
+                .innerRadius(radius  * .5);
+
+                var labelArc = d3.arc()
+                .outerRadius(radius*1.1)
+                .innerRadius(radius*1.1);
+
+                var pieColor = d3.scaleOrdinal()
+                .domain(keys)
+                .range(["#E6A0C4", "#C6CDF7", "#D8A499", "#7294D4"]);
+
+                //Pie graph setup
+                var path = d3.arc()
+                .innerRadius(0)
+                .outerRadius(radius);            
+
+                var pie = d3.pie()
+                .sort(null)
+                .value(function(data, index) { return values[index]; });
+
+                var pathArea = g.selectAll(".arc")
+                .data(pie(values))
+                .enter()
+                .append("path")
+                .attr('d', path)
+                .attr("class", "arc") 
+                .attr("fill", function(data, index) { return pieColor(values[index]); });
+
+                var label = g.selectAll(".arc-label")
+                .data(pie(keys))
+                .enter()
+                .append("text")
+                .attr("text-anchor", "middle")
+                .attr("transform", function(d) { 
+                    d.innerRadius = 0;
+                    d.outerRadius = radius*10;
+                    var pos = labelArc.centroid(d);
+                    pos[0] = radius * (midAngle(d) < Math.PI ? 1.3 : -1.3);
+                    return "translate("+ pos +")"; 
+
+                    // var c = labelArc.centroid(d),
+                    // x = c[0],
+                    // y = c[1],
+                    // // pythagorean theorem for hypotenuse
+                    // h = Math.sqrt(x*x + y*y);
+                    // return "translate(" + (x/h * (radius*1.3)) +  ',' + (y/h * (radius*1.3)) +  ")"; 
+                })
+                .text(function(data, index) { 
+                    return keys[index];
+                    // + " (" 
+                    // + d3.format(".1f")(values[index] / totalValues * 100) 
+                    // + "%)"; 
+                })
+                .style("fill", "#39494c")
+                .style("font-weight", "bold")
+                .style("letter-spacing", "0.15px")
+                .each(function(data) {
+                    this._current = data;
+                }); 
+
+                var valueLabel = g.selectAll(".arc-value-label")
+                .data(pie(keys))
+                .enter()
+                .append("text")
+                .attr("text-anchor", "middle")
+                .attr("transform", function(d){
+                    // d.innerRadius = 0;
+                    // d.outerRadius = radius;
+                    // return "translate(" + arc.centroid(d) + ")";
+
+                    d.innerRadius = 0;
+                    d.outerRadius = radius*10;
+                    var pos = labelArc.centroid(d);
+                    pos[0] = radius/3 + radius * (midAngle(d) < Math.PI ? 1.3 : -1.3);
+                    return "translate("+ pos +")"; 
+
+                    // var c = labelArc.centroid(d),
+                    // x = c[0],
+                    // y = c[1],
+                    // // pythagorean theorem for hypotenuse
+                    // h = Math.sqrt(x*x + y*y);
+                    // return "translate(" + (x/h * (radius*1.2)) +  ',' + (y/h * (radius*1.2)) +  ")";
+                })
+                .text(function(data, index) { 
+                    return d3.format(".1f")(values[index] / totalValues * 100) + "%"; 
+                })
+                .style("fill", "#39494c")
+                .style("letter-spacing", "0.15px")
+                .each(function(data) {
+                    this._current = data;
+                }); 
+
+
+                var polyline = g.selectAll("polyline")
+                .data(pie(keys))
+                .enter()
+                .append("polyline")
+                .attr("points", function(d) {
+                    var pos = labelArc.centroid(d);
+                    pos[0] = radius * (midAngle(d) < Math.PI ? 1.05 : -1.05);
+                    return [arc.centroid(d), labelArc.centroid(d), pos];
+                })
+                .style("opacity", "0.3")
+                .style("fill", "none")
+                .style("stroke", "black")
+                .style("stroke-width", "2px");
+            }
+        }
+
+        //Calculate middle angle for each slice of the pie
+        function midAngle(data) {
+            return data.startAngle + (data.endAngle - data.startAngle) / 2;
+        }
+
+        function createLinesChart(data, divName) {
+            var margin = {top: 20, right: 31, bottom: 30, left: 31};
+            var data = data.items;
+            var height = 400;
+            var width = 750;
+            var outerWidth = 100;
+            // parse the date / time to year
+            var parseTime = d3.timeParse("%Y");
+
+            // set the ranges
+            var x = d3.scaleTime().range([0, width - 2*margin.left]);
+            var y = d3.scaleLinear().range([height, 0]);
+
+            var birthDateLine = d3.line()
+                .x(function(data) { return x(data.date); })
+                .y(function(data, index) { return y(data.values.birthCount); });
+
+            var deathDateLine = d3.line()
+                .x(function(data, index) { return x(data.date); })
+                .y(function(data) { return y(data.values.deathCount); });
+
+            var groupDateLine = d3.line()
+                .x(function(data, index) { return x(data.date); })
+                .y(function(data) { return y(data.values.groupCount); });
+
+            var svg = d3.select(divName)
+                .append("svg")
+                .attr("width", width)
+                .attr("height", height + margin.top + margin.bottom + outerWidth)
+                .attr("style", "padding-left: 30px; padding-right: 30px; padding-top: 15px;");
+
+            // COLORS: map keys to colors for legends (and lines)
+            var color = d3.scaleOrdinal()
+                .domain(d3.keys(data[0].values).filter(function(key) { return key; }))           
+                .range(["#78BCDC", "#E6A2C5", "#76A08A"]);
+
+            // formatting data
+            var categories = color.domain().map(function(type) { 
+                return {
+                    type: type,
+                    values: data.map(function(d) {
+                        return {
+                            date: d.date,
+                            count: d.values[type]
+                        };
+                    })
+                }; 
+            });
+
+            // LEGENDS
+            var legend = svg.selectAll('g')
+              .data(categories)
+              .enter()
+              .append('g')
+              .attr('class', 'legend');
+
+            legend.append('rect')
+                .attr('x', 0)
+                .attr('y', function(d, i) {
+                    return height + 40 + i * 30;
+                })
+                .attr('width', 20)
+                .attr('height', 20)
+                .attr('rx', 5) //svg's rounded corner. Complete circle if rx = ry = width = height
+                .attr('ry', 5)
+                .style('fill', function(d) {
+                    return color(d.type);
+                });
+
+            legend.append('text')
+                .attr('x', 25)
+                .attr('y', function(d, i) {
+                    return height + 40 + (i * 30) + 15;
+                })
+                .text(function(d) {
+                    return (readableAttributes[d.type]);
+                });
+
+            // format the data
+            data.forEach(function(data) {
+              data.date = parseTime(data.date);
+            });
+
+            // sort years ascending
+            data.sort(function(a, b){
+                return a["date"]-b["date"];
+            });
+
+            // Scale the domain of the data
+            x.domain(d3.extent(data, function(data) { 
+                return data.date; }));
+            y.domain([0, d3.max(data, function(data) {
+              return Math.max(data.values.birthCount, data.values.deathCount); })]);
+
+            // Add the paths
+            svg.append("path")
+            .data([data])
+            .attr("class", "line birthDate-line")
+            .attr("d", birthDateLine);
+
+            svg.append("path")
+            .data([data])
+            .attr("class", "line deathDate-line")
+            .attr("d", deathDateLine);
+
+            svg.append("path")
+            .data([data])
+            .attr("class", "line groupDate-line")
+            .attr("d", groupDateLine);
+
+            // Add the X Axis
+            svg.append("g")
+              .attr("transform", "translate(0," + height + ")")
+              .call(d3.axisBottom(x));
+
+            // Add the Y Axis
+            svg.append("g")
+              .call(d3.axisLeft(y));
+
+
+            // TOOLTIPS + MOUSEOVER
+            // append a g for mouse over
+            var mouseG = svg.append("g")
+            .attr("class", "mouse-over-effects");
+
+            // this is the vertical line
+            mouseG.append("path")
+            .attr("class", "mouse-line")
+            .style("stroke", "black")
+            .style("stroke-width", "1px")
+            .style("opacity", "0");
+
+            mouseG.selectAll('.mouse-line-label')
+            .data(categories)
+            .enter()
+            .append("text")
+            .attr("class", "mouse-line-label");
+
+            // keep a reference to all our lines
+            var lines = document.getElementsByClassName('line');
+
+            // here's a g for each circle and text on the line
+            var mousePerLine = mouseG.selectAll('.mouse-per-line')
+            .data(categories)
+            .enter()
+            .append("g")
+            .attr("class", "mouse-per-line");
+
+            // the circle
+            mousePerLine.append("circle")
+            .attr("r", 7)
+            .style("stroke", function(d) {
+                return color(d.type);
+            })
+            .style("fill", function(d) {
+                return color(d.type);
+            })
+            .style("fill-opacity", "0.7")
+            .style("stroke-width", "1px")
+            .style("opacity", "0");
+
+            // the text
+            mousePerLine.append("text")
+            .attr("transform", "translate(10,3)");
+
+            // rect to capture mouse movements
+            mouseG.append('svg:rect')
+            .attr('width', width)
+            .attr('height', height)
+            .attr('fill', 'none')
+            .attr('pointer-events', 'all')
+              .on('mouseout', function() { // on mouse out: hide line, circles and text
+                d3.select(".mouse-line")
+                .style("opacity", "0");
+                d3.select(".mouse-line-label")
+                .style("opacity", "0");
+                d3.selectAll(".mouse-per-line circle")
+                .style("opacity", "0");
+                d3.selectAll(".mouse-per-line text")
+                .style("opacity", "0");
+            })
+              .on('mouseover', function() { // on mouse in: show line, circles and text
+                d3.select(".mouse-line")
+                .style("opacity", "1");
+                d3.select(".mouse-line-label")
+                .style("opacity", "1");
+                d3.selectAll(".mouse-per-line circle")
+                .style("opacity", "1");
+                d3.selectAll(".mouse-per-line text")
+                .style("opacity", "1");
+            })
+              .on('mousemove', function() { // mouse moving over canvas
+                var mouse = d3.mouse(this);
+
+                // move the vertical line
+                d3.select(".mouse-line")
+                .attr("d", function() {
+                    var d = "M" + mouse[0] + "," + height;
+                    d += " " + mouse[0] + "," + 0;
+                    return d;
+                });
+
+                // update year label
+                d3.select(".mouse-line-label")
+                .attr("x", 10)
+                .text(function(d, i) { 
+                    var year = d3.timeFormat("%Y");
+                    var xDate = year(x.invert(mouse[0]));
+                    return "Year: " + xDate; 
+                });
+
+                // position the circle and text
+                d3.selectAll(".mouse-per-line")
+                .attr("transform", function(d, i) {
+                    var xDate = x.invert(mouse[0]),
+                    bisect = d3.bisector(function(d) { return d.date; }).right;
+                    idx = bisect(d.values, xDate);
+
+                    // this conducts a search using some SVG path functions
+                    // to find the correct position on the line
+                    // from http://bl.ocks.org/duopixel/3824661
+                    var beginning = 0,
+                    end = lines[i].getTotalLength(),
+                    target = null;
+
+                    while (true){
+                        target = Math.floor((beginning + end) / 2);
+                        pos = lines[i].getPointAtLength(target);
+                        if ((target === end || target === beginning) && pos.x !== mouse[0]) {
+                          break;
+                        }
+                        if (pos.x > mouse[0])      end = target;
+                        else if (pos.x < mouse[0]) beginning = target;
+                        else break; //position found
+                    }
+
+                    // update the text with y value
+                    if (mouse[0] % 10 == 0) {
+                        d3.select(this).select('text')
+                        .text(Math.round(y.invert(pos.y).toFixed(1)));
+                    }
+
+                    // return position
+                    return "translate(" + mouse[0] + "," + pos.y +")";
+
+                });
+            });
+        }
+
+        function drawMap(error, data, countInfo) {
+            // formatting map data to include "count" attribute from csv (or other files)
+            var countByID = {};
+            var countInfo = countInfo.items;
+
+            countInfo.forEach(function(d) {
+                countByID[d.country] = +d.count; 
+            });
+
+            data.features.forEach(function(d) {
+                if (countByID[d.properties.name]) {
+                    d['count'] = countByID[d.properties.name]; 
+                } else {
+                    d['count'] = 0; 
+                }
+            });
+
+            // general layout setup
+            var margin = {top: 50, right: 50, bottom: 50, left: 50}, 
+            width = 750 - margin.left - margin.right,
+            height = 500 -  margin.top - margin.bottom;
+
+            // SVG
+            var svg = d3.select("#nationality")
+                .append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+            //define projection (how map will look if projected in certain ways)
+            var projection = d3.geoMercator()
+                .scale(110) // scales your map
+                .translate([width/2 , height/1.3]); // centers in SVG 
+
+            // Translate to screen coordinates
+            var path = d3.geoPath()
+                .projection(projection);  
+
+            // COLORS: warm red: rgb(255, 72, 59), #ff483b
+            var red = 255,
+                green = 72,
+                blue = 59;
+
+            var grey = "rgb(190, 202, 202)";
+
+            // COLOR SCALE
+            var color = d3.scaleThreshold()
+                .domain([0, 2, 11, 101, 251, 451, 1001])
+                .range([grey, 
+                        "rgb(" + red  + ", " + (green + 170) + ", " + (blue + 170) + ")",
+                        "rgb(" + red + ", " + (green + 160) + ", " + (blue + 160) + ")",
+                        "rgb(" + red + ", " + (green + 120) + ", " + (blue + 120) + ")",
+                        "rgb(" + red + ", " + (green + 80) + ", " + (blue + 80) + ")",
+                        "rgb(" + red + ", " + (green + 40) + ", " + (blue + 40) + ")",
+                        "rgb(" + red + ", " + green + ", " + blue + ")"
+                    ]);               
+
+            // PATHS FOR SVG MAP
+            svg.append("g")
+            .attr("class", "countries")
+            .selectAll("path")
+            .data(data.features)
+            .enter().append("path")
+            .attr("d", path)
+            .style("fill", function(d) { 
+                return color(countByID[d.properties.name]); 
+            })
+            .style('stroke', 'white')
+            .style("opacity",1)
+            // tooltips
+            .style("stroke","white")
+            .style('stroke-width', 0.3)
+            .on('mouseover',function(d){
+              // tip.show(d);
+
+              d3.select(this)
+              .style("opacity", 0.8)
+              .style("stroke","#db372b")
+              .style("stroke-width",1);
+            })
+            .on('mouseout', function(d){
+              // tip.hide(d);
+
+              d3.select(this)
+              .style("opacity", 1)
+              .style("stroke","white")
+              .style("stroke-width",0.3);
+            });
+
+            //LEGENDS
+            var legend = d3.select('#nationality-legend')
+            .append('ul')
+            .attr('class', 'list-inline');
+
+            var keys = legend.selectAll('li.key')
+            .data(color.range());
+
+            keys.enter().append('li')
+            .attr('class', 'key')
+            .style('border-top-color', String)
+            .text(function(d) {
+                var r = color.invertExtent(d);
+                if (r[1] == 0) {
+                    return r[1];
+                } else {
+                    return ">=" + (r[1] - 1);                    
+                }
+            });
+           
+        }
+
+        function createLineChart(data, divName, xAxisLabel, yAxisLabel) {
+            var margin = {top: 20, right: 31, bottom: 30, left: 31};
+            var paddingLeft = 40;
+            var data = data.items;
+            var height = 400;
+            var width = 750;
+
+            // parse the date / time to year
+            var parseTime = d3.timeParse("%Y");
+
+            // Set the ranges
+            var x = d3.scaleTime().range([0, width - 2*margin.left]);
+            var y = d3.scaleLinear().range([height, 0]);
+
+            // format the data
+            data.forEach(function(data) {
+              data.year = parseTime(data.year);
+            });
+
+            // define the area
+            var area = d3.area()
+                .x(function(d) { return x(d.year); })
+                .y0(height)
+                .y1(function(d) { return y(d.count); });
+
+            // define the line
+            var line = d3.line()
+                .x(function(d) { return x(d.year); })
+                .y(function(d) { return y(d.count); }); 
+
+            // defne svg to append to div with specific id
+            var svg = d3.select(divName)
+                .append("svg")
+                .attr("width", width)
+                .attr("height", height + margin.top + margin.bottom*1.5)
+                .attr("style", "padding-left: 60px; padding-top: 15px;");
+
+            var chartWrapper = svg
+                .append('g')
+                .style('pointer-events', 'all');
+
+            // Scale the domain of the data
+            x.domain(d3.extent(data, function(d) { return d.year; }));
+            y.domain([0, d3.max(data, function(d) { return d.count; })]);
+
+            // add the area
+            chartWrapper.append("path")
+            .data([data])
+            .attr("class", "area")
+            .attr("d", area);
+
+            // Add the paths
+            chartWrapper.append("path")
+            .data([data])
+            .attr("class", "line accession-year-line")
+            .attr("d", line);
+
+            // Add the X Axis
+            chartWrapper.append("g")
+              .attr("transform", "translate(0," + height + ")")
+              .call(d3.axisBottom(x));
+
+            // text label for the x axis
+            chartWrapper.append("text")             
+                .attr("transform",
+                        "translate(" + ((width/2) - paddingLeft) + " ," + 
+                                       (height + margin.top + 20) + ")")
+                .attr("class", "axis-label")
+                .text("" + xAxisLabel);   
+
+            // Add the Y Axis
+            chartWrapper.append("g")
+                .call(d3.axisLeft(y));
+            
+            // text label for the y axis
+            chartWrapper.append("text")
+                .attr("transform", "rotate(-90)")
+                .attr("y", 0 - 2*margin.left)
+                .attr("x",0 - (height / 2))
+                .attr("dy", "1em")
+                .attr("class", "axis-label")
+                .text("" + yAxisLabel);
+        }
+
+        function createColumnChart(data, divName) {
+            var margin = {top: 20, right: 20, bottom: 30, left: 40},
+            width = 750 - margin.left - margin.right,
+            height = 500 - margin.top - margin.bottom;
+            var yScale = 1.2,
+                xScale = 2.5;
+            var data = data.items;
+
+            //SVG for Column Chart
+            var svg = d3.select(divName)
+            .append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom);
+
+            //tooltip
+            var tooltip = d3.select("body").append("div").attr("class", "toolTip");
+
+            //Map colors to categories
+            var colors = d3.scaleOrdinal()
+            .range(["#76A08A", "#FDDDA4", "#F7B0AA", "#B62A3D", "#AEA8A8"]);
+
+            // set ranges
+            var x = d3.scaleBand()
+                .padding(0.1)
+                .domain(data.map(function(d) { return d.department; }))
+                .range([0, width]);
+
+            var y = d3.scaleLinear()
+                .domain([0, d3.max(data, function(d) { return d.count; })])
+                .range([height, 0]);
+
+            // BAR CHART
+            var bars = svg.selectAll(".bar")
+            .data(data)
+            .enter().append("g")
+            .append("rect")
+            .attr("class", "bar")
+            .attr("fill", function(d) { return colors(d.department); })
+            .attr("x", function(d) { return margin.left + x(d.department); })
+            .attr("y", function(d) { return y(d.count) + yScale*margin.top; })
+            .attr("width", x.bandwidth())
+            .attr("height", function(d) { return height - y(d.count); });
+        
+            // LABELS
+            var columnLabel = svg.selectAll("text")
+            .data(data)
+            .enter()
+            .append("text")
+            .attr("class", "column-label")
+            .attr("x", function(d) { return x(d.department) + margin.left + x.bandwidth()/xScale; })
+            .attr("y", function(d) { return (y(d.count) + yScale*margin.top - margin.bottom/10); })
+            .text( function(d) {return d.count;})
+            .attr("font-size", "12px");
+
+            // AXIS LABEL      
+            // add the x Axis
+            svg.append("g")
+              .attr("transform", "translate(" + margin.left + "," + (height  + yScale*margin.top) + ")")
+              .call(d3.axisBottom(x));
+
+            // add the y Axis
+            svg.append("g")
+                .attr("transform", "translate(" + margin.left + "," + + yScale*margin.top + ")")
+                .call(d3.axisLeft(y));
+
+            //RESPONSIVENESS
+            // Draw for the first time to initialize.
+            // resized();
+
+            // window.addEventListener("resize", resized);
+
+            function resized() {
+                //new margin
+                var newMargin = {top: 10, right: 80, bottom: 20, left: 50};
+
+                //Get the width of the window
+                var w = d3.select(divName).node().clientWidth;
+                var newLeftMargin = w*.3;
+                var newbarTextMargin = 61;
+                
+                //Change the width of the svg
+                svg.attr("width", w);
+
+                if (w <= 750 && w > 737) {
+                    //Change the x scale
+                    x.range([0, w*.7]);
+
+                    //Update the bars
+                    bars.attr("x", function() {return newLeftMargin;})
+                        .attr("width", function(d) { return x(d.completionPercentage); });
+
+                    //Updates bar labels
+                    columnLabel
+                        .attr("x", "0")
+                        .attr("font-size", "15px")
+                        .style("fill", "#232828");
+
+                } else if (w <= 737 && w > 680) {
+                    //Change the x scale
+                    x.range([0, w*.7]);
+
+                    //Update the bars
+                    bars.attr("x", function() {return newLeftMargin;})
+                        .attr("width", function(d) { return x(d.completionPercentage); });
+
+                    //Updates bar labels
+                    columnLabel
+                        .attr("font-size", "13px")
+                        .style("fill", "#232828");
+
+               
+                } else if (w <= 680 && w > 622) {
+                    //Change the x scale
+                    x.range([0, w*.7]);
+
+                    //Update the bars
+                    bars.attr("x", function() {return newLeftMargin;})
+                        .attr("width", function(d) { return x(d.completionPercentage); });
+
+                    //Updates bar labels
+                    columnLabel
+                        .attr("font-size", "12px")
+                        .style("fill", "#232828");
+
+                
+                } else if (w <= 622) {
+                    //Change the x scale
+                    x.range([0, w*.85]);
+
+                    //Update the bars
+                    bars
+                        .attr("x", "0")
+                        .attr("width", function(d) { return x(d.completionPercentage); });
+
+                    //Updates bar labels
+                    columnLabel
+                        .attr("x", "5")
+                        .attr("font-size", "12px")
+                        .style("fill", "white");
+
+             
+                } 
+            }
+
+        }
+
+        // DATA PATHS
+        var artistData = "json/sfmoma_raw_data_artists_completion.json";
+        var artworkData = "json/sfmoma_raw_data_artworks_completion.json";
+        var exhibitionData = "json/sfmoma_raw_data_exhibitions_completion.json";
+        var artistDate = "json/artists-info-count.json";
+        var worldCountries = "json/world_countries.json";
+        var artistNationality = "json/artists-country.json";
+        var artworkAccessionYear = "json/artworks-accession-year.json";
+        var artworkAccessionDepartment = "json/artworks-accession-department.json";
+        var exhibitionCount = "json/exhibition-count.json";
+
+        // D3 - GET THE DATA
+        d3.json(artistData, function(error, data) {
+            if (error) throw error;
+            createBarChart(data, ".artist-chart");
+            createPieChart(data, "#gender", "gender");
+        });
+
+        d3.json(artworkData, function(error, data) {
+            if (error) throw error;
+            createBarChart(data, ".artwork-chart");
+        });
+
+        d3.json(exhibitionData, function(error, data) {
+            if (error) throw error;          
+            createBarChart(data, ".exhibition-chart");
+        });
+
+        d3.json(artistDate, function(error, data) {
+            if (error) throw error;          
+            createLinesChart(data, "#years");
+        });        
+
+        d3.queue()
+            .defer(d3.json, worldCountries)
+            .defer(d3.json, artistNationality)
+            .await(drawMap);
+
+        d3.json(artworkAccessionYear, function(error, data) {
+            if (error) throw error;          
+            createLineChart(data, "#artwork-years", "Accession Year", "Number of Artworks");
+        }); 
+
+        d3.json(artworkAccessionDepartment, function(error, data) {
+            if (error) throw error;          
+            createColumnChart(data, "#artwork-department");
+        }); 
+
+        d3.json(exhibitionCount, function(error, data) {
+            if (error) throw error;          
+            createLineChart(data, "#exhibition-count", "Year (1935-2017)", "Number of Exhibitions");
+        }); 
+
+        //TODO: grab live data from API later!
+        // var urlView = '/php/view.php';
+
+        // $.ajax({
+        //     url: urlView,
+        //     data: {
+        //         format: "json"
+        //     },
+        //     type: "GET",
+        //     dataType : "json",
+        // })
+        // .done(function(json) {
+            //var myData = json;
+            // createBarChart();
+        // });
+
+    </script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='https://www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+    </script>
+
+</body>
+</html>

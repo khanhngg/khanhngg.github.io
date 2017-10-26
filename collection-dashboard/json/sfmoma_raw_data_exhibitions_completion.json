@@ -1,0 +1,45 @@
+[
+    {
+        "name": "\ufefftitle",
+        "completionCount": 2024,
+        "mostCommonValues": {
+            "Rental Gallery Fall Exhibition": 3,
+            "Rental Gallery": 3,
+            "SFMOMA's public installations": 3,
+            "Selected Histories: 20th Century Art from the SFMOMA Collection": 8
+        },
+        "numDistinctValues": 1994,
+        "completionPercentage": "100.00"
+    },
+    {
+        "name": "slug",
+        "completionCount": 2023,
+        "mostCommonValues": [],
+        "numDistinctValues": 2023,
+        "completionPercentage": "99.95"
+    },
+    {
+        "name": "start date",
+        "completionCount": 2024,
+        "mostCommonValues": {
+            "1937-07-01": 4,
+            "1972-10-14": 5,
+            "2017-01-01": 6,
+            "2016-05-14": 28
+        },
+        "numDistinctValues": 1682,
+        "completionPercentage": "100.00"
+    },
+    {
+        "name": "end date",
+        "completionCount": 2021,
+        "mostCommonValues": {
+            "2016-12-31": 6,
+            "2013-06-02": 7,
+            "1967-09-19": 8,
+            "2017-12-31": 10
+        },
+        "numDistinctValues": 1532,
+        "completionPercentage": "99.85"
+    }
+]

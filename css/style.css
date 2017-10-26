@@ -6,6 +6,7 @@ html, body {
 
 body {
     font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
 }
 
 a:active, a:focus, a:hover, a:visited {
@@ -106,8 +107,8 @@ h3 {
 
 /* MAIN/SECTION/PROJECT */
 .section-project {
-    margin: 5% 0;
-    padding: 5% 0;
+    margin: 2% 0;
+    padding: 2% 0;
 }
 
 /* MAIN/SECTION//CONTENT */

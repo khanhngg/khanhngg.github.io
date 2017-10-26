@@ -1,0 +1,948 @@
+{
+    "items": [
+        {
+            "date": 1900,
+            "values": {
+                "birthCount": 56,
+                "deathCount": 11,
+                "groupCount": 9
+            }
+        },
+        {
+            "date": 1901,
+            "values": {
+                "birthCount": 33,
+                "deathCount": 8,
+                "groupCount": 1
+            }
+        },
+        {
+            "date": 1902,
+            "values": {
+                "birthCount": 45,
+                "deathCount": 5,
+                "groupCount": 1
+            }
+        },
+        {
+            "date": 1903,
+            "values": {
+                "birthCount": 43,
+                "deathCount": 14,
+                "groupCount": 1
+            }
+        },
+        {
+            "date": 1904,
+            "values": {
+                "birthCount": 48,
+                "deathCount": 8,
+                "groupCount": 0
+            }
+        },
+        {
+            "date": 1905,
+            "values": {
+                "birthCount": 35,
+                "deathCount": 5,
+                "groupCount": 0
+            }
+        },
+        {
+            "date": 1906,
+            "values": {
+                "birthCount": 54,
+                "deathCount": 8,
+                "groupCount": 1
+            }
+        },
+        {
+            "date": 1907,
+            "values": {
+                "birthCount": 44,
+                "deathCount": 6,
+                "groupCount": 1
+            }
+        },
+        {
+            "date": 1908,
+            "values": {
+                "birthCount": 48,
+                "deathCount": 4,
+                "groupCount": 3
+            }
+        },
+        {
+            "date": 1909,
+            "values": {
+                "birthCount": 32,
+                "deathCount": 10,
+                "groupCount": 0
+            }
+        },
+        {
+            "date": 1910,
+            "values": {
+                "birthCount": 44,
+                "deathCount": 8,
+                "groupCount": 4
+            }
+        },
+        {
+            "date": 1911,
+            "values": {
+                "birthCount": 37,
+                "deathCount": 6,
+                "groupCount": 2
+            }
+        },
+        {
+            "date": 1912,
+            "values": {
+                "birthCount": 47,
+                "deathCount": 5,
+                "groupCount": 1
+            }
+        },
+        {
+            "date": 1913,
+            "values": {
+                "birthCount": 47,
+                "deathCount": 2,
+                "groupCount": 2
+            }
+        },
+        {
+            "date": 1914,
+            "values": {
+                "birthCount": 34,
+                "deathCount": 5,
+                "groupCount": 0
+            }
+        },
+        {
+            "date": 1915,
+            "values": {
+                "birthCount": 29,
+                "deathCount": 5,
+                "groupCount": 0
+            }
+        },
+        {
+            "date": 1916,
+            "values": {
+                "birthCount": 37,
+                "deathCount": 7,
+                "groupCount": 0
+            }
+        },
+        {
+            "date": 1917,
+            "values": {
+                "birthCount": 28,
+                "deathCount": 6,
+                "groupCount": 1
+            }
+        },
+        {
+            "date": 1918,
+            "values": {
+                "birthCount": 36,
+                "deathCount": 8,
+                "groupCount": 0
+            }
+        },
+        {
+            "date": 1919,
+            "values": {
+                "birthCount": 38,
+                "deathCount": 4,
+                "groupCount": 0
+            }
+        },
+        {
+            "date": 1920,
+            "values": {
+                "birthCount": 48,
+                "deathCount": 3,
+                "groupCount": 2
+            }
+        },
+        {
+            "date": 1921,
+            "values": {
+                "birthCount": 39,
+                "deathCount": 5,
+                "groupCount": 2
+            }
+        },
+        {
+            "date": 1922,
+            "values": {
+                "birthCount": 47,
+                "deathCount": 5,
+                "groupCount": 1
+            }
+        },
+        {
+            "date": 1923,
+            "values": {
+                "birthCount": 47,
+                "deathCount": 6,
+                "groupCount": 2
+            }
+        },
+        {
+            "date": 1924,
+            "values": {
+                "birthCount": 38,
+                "deathCount": 6,
+                "groupCount": 0
+            }
+        },
+        {
+            "date": 1925,
+            "values": {
+                "birthCount": 51,
+                "deathCount": 8,
+                "groupCount": 2
+            }
+        },
+        {
+            "date": 1926,
+            "values": {
+                "birthCount": 44,
+                "deathCount": 3,
+                "groupCount": 1
+            }
+        },
+        {
+            "date": 1927,
+            "values": {
+                "birthCount": 45,
+                "deathCount": 5,
+                "groupCount": 3
+            }
+        },
+        {
+            "date": 1928,
+            "values": {
+                "birthCount": 58,
+                "deathCount": 8,
+                "groupCount": 0
+            }
+        },
+        {
+            "date": 1929,
+            "values": {
+                "birthCount": 39,
+                "deathCount": 2,
+                "groupCount": 1
+            }
+        },
+        {
+            "date": 1930,
+            "values": {
+                "birthCount": 70,
+                "deathCount": 8,
+                "groupCount": 3
+            }
+        },
+        {
+            "date": 1931,
+            "values": {
+                "birthCount": 52,
+                "deathCount": 7,
+                "groupCount": 1
+            }
+        },
+        {
+            "date": 1932,
+            "values": {
+                "birthCount": 49,
+                "deathCount": 6,
+                "groupCount": 1
+            }
+        },
+        {
+            "date": 1933,
+            "values": {
+                "birthCount": 58,
+                "deathCount": 8,
+                "groupCount": 0
+            }
+        },
+        {
+            "date": 1934,
+            "values": {
+                "birthCount": 61,
+                "deathCount": 3,
+                "groupCount": 0
+            }
+        },
+        {
+            "date": 1935,
+            "values": {
+                "birthCount": 70,
+                "deathCount": 9,
+                "groupCount": 1
+            }
+        },
+        {
+            "date": 1936,
+            "values": {
+                "birthCount": 72,
+                "deathCount": 3,
+                "groupCount": 1
+            }
+        },
+        {
+            "date": 1937,
+            "values": {
+                "birthCount": 71,
+                "deathCount": 6,
+                "groupCount": 0
+            }
+        },
+        {
+            "date": 1938,
+            "values": {
+                "birthCount": 75,
+                "deathCount": 11,
+                "groupCount": 2
+            }
+        },
+        {
+            "date": 1939,
+            "values": {
+                "birthCount": 72,
+                "deathCount": 5,
+                "groupCount": 0
+            }
+        },
+        {
+            "date": 1940,
+            "values": {
+                "birthCount": 110,
+                "deathCount": 7,
+                "groupCount": 1
+            }
+        },
+        {
+            "date": 1941,
+            "values": {
+                "birthCount": 98,
+                "deathCount": 12,
+                "groupCount": 3
+            }
+        },
+        {
+            "date": 1942,
+            "values": {
+                "birthCount": 92,
+                "deathCount": 10,
+                "groupCount": 0
+            }
+        },
+        {
+            "date": 1943,
+            "values": {
+                "birthCount": 99,
+                "deathCount": 10,
+                "groupCount": 1
+            }
+        },
+        {
+            "date": 1944,
+            "values": {
+                "birthCount": 89,
+                "deathCount": 19,
+                "groupCount": 0
+            }
+        },
+        {
+            "date": 1945,
+            "values": {
+                "birthCount": 83,
+                "deathCount": 14,
+                "groupCount": 1
+            }
+        },
+        {
+            "date": 1946,
+            "values": {
+                "birthCount": 98,
+                "deathCount": 15,
+                "groupCount": 2
+            }
+        },
+        {
+            "date": 1947,
+            "values": {
+                "birthCount": 106,
+                "deathCount": 13,
+                "groupCount": 0
+            }
+        },
+        {
+            "date": 1948,
+            "values": {
+                "birthCount": 80,
+                "deathCount": 9,
+                "groupCount": 4
+            }
+        },
+        {
+            "date": 1949,
+            "values": {
+                "birthCount": 93,
+                "deathCount": 17,
+                "groupCount": 1
+            }
+        },
+        {
+            "date": 1950,
+            "values": {
+                "birthCount": 77,
+                "deathCount": 10,
+                "groupCount": 2
+            }
+        },
+        {
+            "date": 1951,
+            "values": {
+                "birthCount": 77,
+                "deathCount": 11,
+                "groupCount": 0
+            }
+        },
+        {
+            "date": 1952,
+            "values": {
+                "birthCount": 81,
+                "deathCount": 15,
+                "groupCount": 0
+            }
+        },
+        {
+            "date": 1953,
+            "values": {
+                "birthCount": 75,
+                "deathCount": 11,
+                "groupCount": 0
+            }
+        },
+        {
+            "date": 1954,
+            "values": {
+                "birthCount": 71,
+                "deathCount": 20,
+                "groupCount": 1
+            }
+        },
+        {
+            "date": 1955,
+            "values": {
+                "birthCount": 70,
+                "deathCount": 13,
+                "groupCount": 2
+            }
+        },
+        {
+            "date": 1956,
+            "values": {
+                "birthCount": 65,
+                "deathCount": 21,
+                "groupCount": 0
+            }
+        },
+        {
+            "date": 1957,
+            "values": {
+                "birthCount": 56,
+                "deathCount": 21,
+                "groupCount": 0
+            }
+        },
+        {
+            "date": 1958,
+            "values": {
+                "birthCount": 56,
+                "deathCount": 12,
+                "groupCount": 1
+            }
+        },
+        {
+            "date": 1959,
+            "values": {
+                "birthCount": 55,
+                "deathCount": 17,
+                "groupCount": 2
+            }
+        },
+        {
+            "date": 1960,
+            "values": {
+                "birthCount": 66,
+                "deathCount": 11,
+                "groupCount": 2
+            }
+        },
+        {
+            "date": 1961,
+            "values": {
+                "birthCount": 78,
+                "deathCount": 16,
+                "groupCount": 0
+            }
+        },
+        {
+            "date": 1962,
+            "values": {
+                "birthCount": 57,
+                "deathCount": 18,
+                "groupCount": 2
+            }
+        },
+        {
+            "date": 1963,
+            "values": {
+                "birthCount": 81,
+                "deathCount": 16,
+                "groupCount": 1
+            }
+        },
+        {
+            "date": 1964,
+            "values": {
+                "birthCount": 47,
+                "deathCount": 25,
+                "groupCount": 1
+            }
+        },
+        {
+            "date": 1965,
+            "values": {
+                "birthCount": 62,
+                "deathCount": 20,
+                "groupCount": 1
+            }
+        },
+        {
+            "date": 1966,
+            "values": {
+                "birthCount": 55,
+                "deathCount": 26,
+                "groupCount": 4
+            }
+        },
+        {
+            "date": 1967,
+            "values": {
+                "birthCount": 67,
+                "deathCount": 15,
+                "groupCount": 2
+            }
+        },
+        {
+            "date": 1968,
+            "values": {
+                "birthCount": 64,
+                "deathCount": 28,
+                "groupCount": 4
+            }
+        },
+        {
+            "date": 1969,
+            "values": {
+                "birthCount": 50,
+                "deathCount": 20,
+                "groupCount": 4
+            }
+        },
+        {
+            "date": 1970,
+            "values": {
+                "birthCount": 104,
+                "deathCount": 26,
+                "groupCount": 1
+            }
+        },
+        {
+            "date": 1971,
+            "values": {
+                "birthCount": 48,
+                "deathCount": 27,
+                "groupCount": 3
+            }
+        },
+        {
+            "date": 1972,
+            "values": {
+                "birthCount": 50,
+                "deathCount": 21,
+                "groupCount": 4
+            }
+        },
+        {
+            "date": 1973,
+            "values": {
+                "birthCount": 42,
+                "deathCount": 18,
+                "groupCount": 0
+            }
+        },
+        {
+            "date": 1974,
+            "values": {
+                "birthCount": 30,
+                "deathCount": 24,
+                "groupCount": 0
+            }
+        },
+        {
+            "date": 1975,
+            "values": {
+                "birthCount": 35,
+                "deathCount": 30,
+                "groupCount": 2
+            }
+        },
+        {
+            "date": 1976,
+            "values": {
+                "birthCount": 33,
+                "deathCount": 34,
+                "groupCount": 3
+            }
+        },
+        {
+            "date": 1977,
+            "values": {
+                "birthCount": 37,
+                "deathCount": 24,
+                "groupCount": 2
+            }
+        },
+        {
+            "date": 1978,
+            "values": {
+                "birthCount": 20,
+                "deathCount": 38,
+                "groupCount": 2
+            }
+        },
+        {
+            "date": 1979,
+            "values": {
+                "birthCount": 24,
+                "deathCount": 26,
+                "groupCount": 5
+            }
+        },
+        {
+            "date": 1980,
+            "values": {
+                "birthCount": 29,
+                "deathCount": 25,
+                "groupCount": 4
+            }
+        },
+        {
+            "date": 1981,
+            "values": {
+                "birthCount": 15,
+                "deathCount": 26,
+                "groupCount": 2
+            }
+        },
+        {
+            "date": 1982,
+            "values": {
+                "birthCount": 16,
+                "deathCount": 32,
+                "groupCount": 3
+            }
+        },
+        {
+            "date": 1983,
+            "values": {
+                "birthCount": 9,
+                "deathCount": 26,
+                "groupCount": 1
+            }
+        },
+        {
+            "date": 1984,
+            "values": {
+                "birthCount": 4,
+                "deathCount": 33,
+                "groupCount": 7
+            }
+        },
+        {
+            "date": 1985,
+            "values": {
+                "birthCount": 4,
+                "deathCount": 43,
+                "groupCount": 1
+            }
+        },
+        {
+            "date": 1986,
+            "values": {
+                "birthCount": 5,
+                "deathCount": 28,
+                "groupCount": 6
+            }
+        },
+        {
+            "date": 1987,
+            "values": {
+                "birthCount": 2,
+                "deathCount": 32,
+                "groupCount": 3
+            }
+        },
+        {
+            "date": 1988,
+            "values": {
+                "birthCount": 1,
+                "deathCount": 29,
+                "groupCount": 2
+            }
+        },
+        {
+            "date": 1989,
+            "values": {
+                "birthCount": 1,
+                "deathCount": 41,
+                "groupCount": 5
+            }
+        },
+        {
+            "date": 1990,
+            "values": {
+                "birthCount": 6,
+                "deathCount": 34,
+                "groupCount": 3
+            }
+        },
+        {
+            "date": 2000,
+            "values": {
+                "birthCount": 1,
+                "deathCount": 32,
+                "groupCount": 4
+            }
+        },
+        {
+            "date": 1991,
+            "values": {
+                "birthCount": 0,
+                "deathCount": 40,
+                "groupCount": 6
+            }
+        },
+        {
+            "date": 1992,
+            "values": {
+                "birthCount": 0,
+                "deathCount": 35,
+                "groupCount": 3
+            }
+        },
+        {
+            "date": 1993,
+            "values": {
+                "birthCount": 0,
+                "deathCount": 38,
+                "groupCount": 9
+            }
+        },
+        {
+            "date": 1994,
+            "values": {
+                "birthCount": 0,
+                "deathCount": 30,
+                "groupCount": 3
+            }
+        },
+        {
+            "date": 1995,
+            "values": {
+                "birthCount": 0,
+                "deathCount": 30,
+                "groupCount": 5
+            }
+        },
+        {
+            "date": 1996,
+            "values": {
+                "birthCount": 0,
+                "deathCount": 30,
+                "groupCount": 4
+            }
+        },
+        {
+            "date": 1997,
+            "values": {
+                "birthCount": 0,
+                "deathCount": 44,
+                "groupCount": 8
+            }
+        },
+        {
+            "date": 1998,
+            "values": {
+                "birthCount": 0,
+                "deathCount": 43,
+                "groupCount": 2
+            }
+        },
+        {
+            "date": 1999,
+            "values": {
+                "birthCount": 0,
+                "deathCount": 46,
+                "groupCount": 6
+            }
+        },
+        {
+            "date": 2001,
+            "values": {
+                "birthCount": 0,
+                "deathCount": 32,
+                "groupCount": 4
+            }
+        },
+        {
+            "date": 2002,
+            "values": {
+                "birthCount": 0,
+                "deathCount": 34,
+                "groupCount": 4
+            }
+        },
+        {
+            "date": 2003,
+            "values": {
+                "birthCount": 0,
+                "deathCount": 34,
+                "groupCount": 3
+            }
+        },
+        {
+            "date": 2004,
+            "values": {
+                "birthCount": 0,
+                "deathCount": 33,
+                "groupCount": 4
+            }
+        },
+        {
+            "date": 2005,
+            "values": {
+                "birthCount": 0,
+                "deathCount": 34,
+                "groupCount": 0
+            }
+        },
+        {
+            "date": 2006,
+            "values": {
+                "birthCount": 0,
+                "deathCount": 36,
+                "groupCount": 3
+            }
+        },
+        {
+            "date": 2007,
+            "values": {
+                "birthCount": 0,
+                "deathCount": 30,
+                "groupCount": 0
+            }
+        },
+        {
+            "date": 2008,
+            "values": {
+                "birthCount": 0,
+                "deathCount": 28,
+                "groupCount": 1
+            }
+        },
+        {
+            "date": 2009,
+            "values": {
+                "birthCount": 0,
+                "deathCount": 35,
+                "groupCount": 1
+            }
+        },
+        {
+            "date": 2010,
+            "values": {
+                "birthCount": 0,
+                "deathCount": 37,
+                "groupCount": 3
+            }
+        },
+        {
+            "date": 2011,
+            "values": {
+                "birthCount": 0,
+                "deathCount": 32,
+                "groupCount": 0
+            }
+        },
+        {
+            "date": 2012,
+            "values": {
+                "birthCount": 0,
+                "deathCount": 38,
+                "groupCount": 3
+            }
+        },
+        {
+            "date": 2013,
+            "values": {
+                "birthCount": 0,
+                "deathCount": 36,
+                "groupCount": 0
+            }
+        },
+        {
+            "date": 2014,
+            "values": {
+                "birthCount": 0,
+                "deathCount": 25,
+                "groupCount": 0
+            }
+        },
+        {
+            "date": 2015,
+            "values": {
+                "birthCount": 0,
+                "deathCount": 22,
+                "groupCount": 0
+            }
+        },
+        {
+            "date": 2016,
+            "values": {
+                "birthCount": 0,
+                "deathCount": 22,
+                "groupCount": 0
+            }
+        },
+        {
+            "date": 2017,
+            "values": {
+                "birthCount": 0,
+                "deathCount": 7,
+                "groupCount": 0
+            }
+        }
+    ]
+}

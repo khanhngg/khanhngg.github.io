@@ -1,0 +1,101 @@
+// SFMOMA Display
+// --------------
+// For headings, titles, buttons, etc.
+
+@font-face {
+		font-family: 'SFMOMADisplayRegular';
+		src: url('/fonts/SFMOMADisplayRegular.eot');
+		src: url('/fonts/SFMOMADisplayRegular.eot?#iefix') format('embedded-opentype'),
+				 url('/fonts/SFMOMADisplayRegular.woff2') format('woff2'),
+				 url('/fonts/SFMOMADisplayRegular.woff') format('woff'),
+				 url('/fonts/SFMOMADisplayRegular.ttf') format('truetype'),
+				 url('/fonts/SFMOMADisplayRegular.svg#SFMOMADisplayRegular') format('svg');
+}
+
+@font-face {
+		font-family: 'SFMOMADisplayBold';
+		src: url('/fonts/SFMOMADisplayBold.eot');
+		src: url('/fonts/SFMOMADisplayBold.eot?#iefix') format('embedded-opentype'),
+				 url('/fonts/SFMOMADisplayBold.woff2') format('woff2'),
+				 url('/fonts/SFMOMADisplayBold.woff') format('woff'),
+				 url('/fonts/SFMOMADisplayBold.ttf') format('truetype'),
+				 url('/fonts/SFMOMADisplayBold.svg#SFMOMADisplayBold') format('svg');
+}
+
+@font-face {
+		font-family: 'SFMOMADisplayHeavy';
+		src: url('/fonts/SFMOMADisplayHeavy.eot');
+		src: url('/fonts/SFMOMADisplayHeavy.eot?#iefix') format('embedded-opentype'),
+				 url('/fonts/SFMOMADisplayHeavy.woff2') format('woff2'),
+				 url('/fonts/SFMOMADisplayHeavy.woff') format('woff'),
+				 url('/fonts/SFMOMADisplayHeavy.ttf') format('truetype'),
+				 url('/fonts/SFMOMADisplayHeavy.svg#SFMOMADisplayHeavy') format('svg');
+}
+
+@font-face {
+		font-family: 'SFMOMADisplayMedium';
+		src: url('/fonts/SFMOMADisplayMedium.eot');
+		src: url('/fonts/SFMOMADisplayMedium.eot?#iefix') format('embedded-opentype'),
+				 url('/fonts/SFMOMADisplayMedium.woff2') format('woff2'),
+				 url('/fonts/SFMOMADisplayMedium.woff') format('woff'),
+				 url('/fonts/SFMOMADisplayMedium.ttf') format('truetype'),
+				 url('/fonts/SFMOMADisplayMedium.svg#SFMOMADisplayMedium') format('svg');
+}
+
+@font-face {
+		font-family: 'SFMOMADisplayLight';
+		src: url('/fonts/SFMOMADisplayLight.eot');
+		src: url('/fonts/SFMOMADisplayLight.eot?#iefix') format('embedded-opentype'),
+				 url('/fonts/SFMOMADisplayLight.woff2') format('woff2'),
+				 url('/fonts/SFMOMADisplayLight.woff') format('woff'),
+				 url('/fonts/SFMOMADisplayLight.ttf') format('truetype'),
+				 url('/fonts/SFMOMADisplayLight.svg#SFMOMADisplayLight') format('svg');
+}
+
+// SFMOMA Text
+// -----------
+// For paragraph-level text, footnotes, captions, and other long block elements.
+
+@font-face {
+		font-family: 'SFMOMAText';
+		src: url('/fonts/SFMOMATextRegular.eot');
+		src: url('/fonts/SFMOMATextRegular.eot?#iefix') format('embedded-opentype'),
+				 url('/fonts/SFMOMATextRegular.woff') format('woff'),
+				 url('/fonts/SFMOMATextRegular.ttf') format('truetype'),
+				 url('/fonts/SFMOMATextRegular.svg#SFMOMATextRegular') format('svg');
+		font-weight: normal;
+		font-style: normal;
+}
+
+@font-face {
+		font-family: 'SFMOMAText';
+		src: url('/fonts/SFMOMATextRegularItalic.eot');
+		src: url('/fonts/SFMOMATextRegularItalic.eot?#iefix') format('embedded-opentype'),
+				 url('/fonts/SFMOMATextRegularItalic.woff') format('woff'),
+				 url('/fonts/SFMOMATextRegularItalic.ttf') format('truetype'),
+				 url('/fonts/SFMOMATextRegularItalic.svg#SFMOMATextRegularItalic') format('svg');
+		font-weight: normal;
+		font-style: italic;
+}
+
+@font-face {
+		font-family: 'SFMOMAText';
+		src: url('/fonts/SFMOMATextBold.eot');
+		src: url('/fonts/SFMOMATextBold.eot?#iefix') format('embedded-opentype'),
+				 url('/fonts/SFMOMATextBold.woff') format('woff'),
+				 url('/fonts/SFMOMATextBold.ttf') format('truetype'),
+				 url('/fonts/SFMOMATextBold.svg#SFMOMATextBold') format('svg');
+		font-weight: bold;
+		font-style: normal;
+}
+
+@font-face {
+		font-family: 'SFMOMAText';
+		src: url('/fonts/SFMOMATextBoldItalic.eot');
+		src: url('/fonts/SFMOMATextBoldItalic.eot?#iefix') format('embedded-opentype'),
+				 url('/fonts/SFMOMATextBoldItalic.woff') format('woff'),
+				 url('/fonts/SFMOMATextBoldItalic.ttf') format('truetype'),
+				 url('/fonts/SFMOMATextBoldItalic.svg#SFMOMATextBoldItalic') format('svg');
+		font-weight: bold;
+		font-style: italic;
+}

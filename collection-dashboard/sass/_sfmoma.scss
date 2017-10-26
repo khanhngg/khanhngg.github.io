@@ -1,0 +1,28 @@
+@import 'fonts';
+@import	'colors';
+
+@mixin font-smoothing($value: true) {
+	@if ($value == true) {
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+	} @else {
+		-moz-osx-font-smoothing: auto;
+		-webkit-font-smoothing: subpixel-antialiased;
+	}
+}
+
+html, body {
+	font-family: 'SFMOMAText';
+	background-color: $site-bg;
+	color: $gray-darkest;
+	min-height: 100vh;
+	width: 100%;
+	font-size: 16px;
+	text-rendering: optimizeLegibility !important;
+	@include font-smoothing(true);
+}
+
+h1, h2, h3, h4 {
+	font-family: 'SFMOMADisplayRegular';
+	font-weight: normal;
+}

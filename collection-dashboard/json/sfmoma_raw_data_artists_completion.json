@@ -1,0 +1,152 @@
+[
+    {
+        "name": "id",
+        "completionCount": 3389,
+        "mostCommonValues": [],
+        "numDistinctValues": 3389,
+        "completionPercentage": "99.97"
+    },
+    {
+        "name": "name_display",
+        "completionCount": 3389,
+        "mostCommonValues": {
+            "Hella Jongerius": 2,
+            "Various Photographers": 2,
+            "Edmund Lewandowski": 2,
+            "Unknown": 4
+        },
+        "numDistinctValues": 3383,
+        "completionPercentage": "99.97"
+    },
+    {
+        "name": "slug",
+        "completionCount": 3389,
+        "mostCommonValues": [],
+        "numDistinctValues": 3389,
+        "completionPercentage": "99.97"
+    },
+    {
+        "name": "gender",
+        "completionCount": 3340,
+        "mostCommonValues": {
+            "unknown": 13,
+            "group": 329,
+            "female": 631,
+            "male": 2367
+        },
+        "numDistinctValues": 4,
+        "completionPercentage": "98.53"
+    },
+    {
+        "name": "life_info_birth_date_display",
+        "completionCount": 3167,
+        "mostCommonValues": [
+            46,
+            50,
+            51,
+            59
+        ],
+        "numDistinctValues": 371,
+        "completionPercentage": "93.42"
+    },
+    {
+        "name": "life_info_death_date_display",
+        "completionCount": 1282,
+        "mostCommonValues": [
+            23,
+            23,
+            26,
+            27
+        ],
+        "numDistinctValues": 180,
+        "completionPercentage": "37.82"
+    },
+    {
+        "name": "life_info_birth_place",
+        "completionCount": 2731,
+        "mostCommonValues": {
+            "Chicago, Illinois": 57,
+            "Los Angeles, California": 66,
+            "San Francisco, California": 86,
+            "New York City, New York": 159
+        },
+        "numDistinctValues": 1361,
+        "completionPercentage": "80.56"
+    },
+    {
+        "name": "life_info_death_place",
+        "completionCount": 1004,
+        "mostCommonValues": {
+            "Los Angeles, California": 31,
+            "Paris, France": 61,
+            "San Francisco, California": 65,
+            "New York City, New York": 140
+        },
+        "numDistinctValues": 467,
+        "completionPercentage": "29.62"
+    },
+    {
+        "name": "life_info_display",
+        "completionCount": 3197,
+        "mostCommonValues": {
+            "1966\u2013": 8,
+            "Active 1850s": 9,
+            "1963\u2013": 10,
+            "1956\u2013": 10
+        },
+        "numDistinctValues": 2893,
+        "completionPercentage": "94.31"
+    },
+    {
+        "name": "background_nationality",
+        "completionCount": 3153,
+        "mostCommonValues": {
+            "German": 141,
+            "Japanese": 146,
+            "French": 174,
+            "American": 1689
+        },
+        "numDistinctValues": 214,
+        "completionPercentage": "93.01"
+    },
+    {
+        "name": "name_sort",
+        "completionCount": 3389,
+        "mostCommonValues": {
+            "mansell-thomas-lukis": 1,
+            "mather-margrethe": 1,
+            "jongerius-hella": 2,
+            "lewandowski-edmund": 2
+        },
+        "numDistinctValues": 3387,
+        "completionPercentage": "99.97"
+    },
+    {
+        "name": "sfmoma_website_url",
+        "completionCount": 3389,
+        "mostCommonValues": [],
+        "numDistinctValues": 3389,
+        "completionPercentage": "99.97"
+    },
+    {
+        "name": "sfmoma_api_url",
+        "completionCount": 3389,
+        "mostCommonValues": [],
+        "numDistinctValues": 3389,
+        "completionPercentage": "99.97"
+    },
+    {
+        "name": "ulan",
+        "completionCount": 0,
+        "mostCommonValues": [],
+        "numDistinctValues": 0,
+        "completionPercentage": "0.00"
+    },
+    {
+        "name": "artwork_accession_numbers",
+        "completionCount": 3246,
+        "mostCommonValues": [],
+        "numDistinctValues": 3246,
+        "completionPercentage": "95.75"
+    }
+]

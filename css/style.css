@@ -146,6 +146,16 @@ img#img-group {
     box-shadow: 0 1px 4px 0 rgba(99,114,130,.15);
 }
 
+.image-section {
+    text-align: center;
+    padding: 5% 0;
+}
+
+.image-section h3 {
+    font-weight: 400;
+    margin-bottom: 3%;
+}
+
 .image-bg {
     /*padding-top: 56.25%;   450px/800px = 0.5625 */
     /*background-size: cover;*/

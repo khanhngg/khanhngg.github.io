@@ -7,22 +7,10 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="img/favicon.png">
-
-    <style>
-      html, body {
-        margin: 0;
-        padding: 0;
-      }
-      .pdfobject-container {
-        height: 100vh;
-      }
-    </style>
-
     <!-- PDF OBJECT -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.0/pdfobject.js"></script>
   </head>
   <body>
-    <div class="pdfobject-container" id="resume"></div>
-    <script>PDFObject.embed("/pdf/KhanhNguyen_resume.pdf", "#resume");</script>
+    <script>PDFObject.embed("/pdf/KhanhNguyen_resume.pdf");</script>
   </body>
 </html>

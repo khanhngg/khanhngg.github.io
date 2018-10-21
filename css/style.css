@@ -7,6 +7,7 @@ html, body {
 body {
     font-family: 'Lato', sans-serif;
     font-size: 1.1rem;
+    color: #414b56;
 }
 
 a:active, a:focus, a:hover, a:visited {
@@ -23,7 +24,7 @@ a:hover {
 
 ::selection {
     background: #B7EF9C;
-    color: #232828;
+    /* color: #232828; */
     text-shadow: none;
 }
 
@@ -58,6 +59,10 @@ h3 {
 
 
 /* NAV */
+.navbar {
+    padding: 1rem 1rem;
+}
+
 .nav-transparent {
     border: 0;
     border-radius: 0;
@@ -65,7 +70,6 @@ h3 {
 }
 
 .navbar-nav {
-    width: 25%;
     text-align: center;
 }
 
@@ -73,19 +77,36 @@ h3 {
     flex-grow: 1;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: #414b56;
+    font-weight: 300;
+    letter-spacing: 2px;
+    transition: all 0.2s ease;
+}
+
+.navbar-light .navbar-nav a.nav-link:hover {
+    color: #3FC380;
+    font-weight: 500;
+}
+
 .global-logo {
     background-repeat: no-repeat;
     background-image: url('../img/logo.svg'); 
-    height: 40px;
-    width: 40px;
+    height: 55px;
+    width: 55px;
 }
-
 
 /* MAIN */
 
+/* PDF */
+.pdfobject-container {
+    height: 100vh;
+    /* border: 1rem solid rgba(0,0,0,.1); */
+}
+
 /* MAIN/SECTION */
 .section {
-    margin: 5% 0;
+    /* margin: 5% 0; */
     padding: 2% 0;
 }
 
@@ -103,6 +124,14 @@ h3 {
     margin-top: 0;
     padding-top: 10%;
     /*padding-bottom: 15%;*/
+}
+
+.hero-text {
+    text-align: left;
+}
+
+.hero-text h1 {
+    font-weight: 500;
 }
 
 /* MAIN/SECTION/PROJECT */
@@ -180,12 +209,9 @@ img#img-group {
     font-weight: 400;
 }
 
-.img-container {
-    padding-bottom: 5%;
-}
-
 .img-profile {
-    margin-top: 17%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 /* FOOTER (CONTACT) */

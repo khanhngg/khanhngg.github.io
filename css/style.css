@@ -98,12 +98,6 @@ h3 {
 
 /* MAIN */
 
-/* PDF */
-.pdfobject-container {
-    height: 100vh;
-    /* border: 1rem solid rgba(0,0,0,.1); */
-}
-
 /* MAIN/SECTION */
 .section {
     /* margin: 5% 0; */
